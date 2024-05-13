@@ -1,0 +1,11 @@
+/*! Custom css v1.0.0 | http://thomasfrenkiel.com */
+/*
+ *
+ *   
+ */
+.center-container, .content-container {
+    max-width: 928px; /* or any other value */
+    margin: 0 auto; /* Centers the div */
+    padding: 1rem; /* Optional: Adds some padding */
+}
+    
