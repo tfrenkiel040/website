@@ -3,9 +3,17 @@
  *
  *   
  */
-.center-container, .content-container {
-    max-width: 928px; /* or any other value */
-    margin: 0 auto; /* Centers the div */
-    padding: 1rem; /* Optional: Adds some padding */
-}
+#.center-container, .content-container {
+#    max-width: 928px; /* or any other value */
+#    margin: 0 auto; /* Centers the div */
+#    padding: 1rem; /* Optional: Adds some padding */
+#}
     
+
+
+@media (max-width: 600px) {
+    .fl {
+        width: 100% !important;
+        float: none !important;
+    }
+}
