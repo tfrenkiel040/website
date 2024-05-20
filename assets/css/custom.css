@@ -17,3 +17,16 @@
         float: none !important;
     }
 }
+
+/* Main navigation styles */
+.top-bar {
+    background-color: #b9d9b9; /* Soft green color */
+    padding: 20px;
+    width: 100%; /* This ensures it stretches fully if it's not already doing so */
+}
+
+
+/* Header styles */
+.ph5-ns {
+    padding-bottom: 64px; /* Adds whitespace below the green nav bar */
+}
