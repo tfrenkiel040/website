@@ -10,7 +10,7 @@ list_title: Recent posts  # Custom title for the blog posts section
 <div class="cf"> <!-- cf is used to contain floats -->
     <div class="fl w-70 pa2">
         <h1>Welcome!</h1>
-        <p>This is my personal website where I share insights into my work as a Digital Marketer and SEO Specialist, along with regular updates from my blog.</p>
+        <p>This is my personal website. Here I will share insights into my work as a Digital Marketer and SEO Specialist, along with regular updates from my blog.</p>
         <a href="/about/" class="link blue">Learn More About Me</a>
     </div>
     <div class="fl w-30 pa2">
