@@ -35,7 +35,7 @@
         Contact
       </a>
   </nav>
-       <div class="off-screen-menu">
+       <div id="off-screen-menu" class="off-screen-menu" aria-labelledby="menu-toggle">
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
@@ -43,16 +43,14 @@
         <li><a href="/contact">Contact</a></li>
       </ul>
     </div>
-
     <nav>
-      <div class="ham-menu">
+      <button class="ham-menu" aria-controls="off-screen-menu" aria-expanded="false">
         <span></span>
         <span></span>
         <span></span>
-      </div>
+      </button>
     </nav>
 
-    <script src="./app.js"></script>
 
   </div>
 </header>
@@ -60,8 +58,8 @@
     {{ content }}
 
 </main>
+<script src="/assets/js/app.js"></script>
 
-    <script src="{{ '/assets/js/app.js' | relative_url }}"></script> 
 
 </body>
 
