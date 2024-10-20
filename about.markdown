@@ -4,7 +4,10 @@ title: About
 permalink: /about/
 ---
 
+<div class="cf"> <!-- cf is used to contain floats -->
+    <div class="fl w-60 pa2">
 <h2> Senior Digital Marketer & SEO Strategist at Funnel</h2>
+        
 
 <p>Welcome to my personal website! I'm Thomas, based in Stockholm, Sweden, specializing in SEO, web product management, and B2B marketing. At Funnel, my role intersects these areas as I focus on enhancing our web presence and driving organic growth through strategic SEO initiatives and collaborative product management.</p>
 
@@ -14,6 +17,11 @@ permalink: /about/
 
 <p>I am passionate about mentoring and empowering others, and I strive to lead by example in fostering an inclusive and innovative workplace. I believe that sharing knowledge and working together can lead to extraordinary results, and I regularly contribute to industry events to discuss the latest in SEO and digital marketing trends.</p>
 
-Curious to learn more about my work or interested in collaborating? Let's connect! Check out my [LinkedIn](https://www.linkedin.com/in/thomasfrenkiel/) and send me a message there.
+<p>Curious to learn more about my work or interested in collaborating? Let's connect! Check out my [LinkedIn](https://www.linkedin.com/in/thomasfrenkiel/) and send me a message there.</p>
+</div>
+<div class="fl w-40 pa2">
+        <img src="{{ '/assets/images/2024pf.jpg' | relative_url }}" alt="Thomas Frenkiel" class="w-100 db center">
+    </div>
+</div>
 
 
