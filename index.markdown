@@ -10,7 +10,7 @@ list_title: Recent posts  # Custom title for the blog posts section
 <div class="cf"> <!-- cf is used to contain floats -->
     <div class="fl w-70 pa2">
         <h1>Hello</h1>
-        <p>This is my personal website. Here I will share insights into my work as a Marketer and SEO Specialist, along with regular updates from my blog.</p><br>
+        <p>This is my personal website. Here I will share insights into my work as a Marketer and SEO Specialist, along with (very) iregular updates from my blog.</p>
 <p>As you can see, blog is written with a small b. I decided to go with the small b after reading the post <a href="https://tomcritchlow.com/2018/02/23/small-b-blogging/" target="_blank">Small b blogging</a> by Tom Critchlow. His work and many of what he has written, inspired me to launch this personal website.</p>
         <a href="/about/" class="link blue">Read more</a>
     </div>
