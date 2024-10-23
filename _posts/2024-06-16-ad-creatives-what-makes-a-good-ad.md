@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ad Creatives: What Makes a Good Ad?"
+title:  "Ad Creatives: what makes a good ad?"
 date:   2024-06-16 10:00:00 +0200
 categories: marketing
 ---
@@ -13,7 +13,7 @@ categories: marketing
 
 While this is not a question with a short and simple answer, I like the ideas shared by Jenni Romaniuk in a recent podcast.
 
-On the '[Anstice Acast](https://www.anstice.ca/post/a-cast-episode-29-memory-marketing-myths-category-entry-points-and-distinctive-assets-with-jenni-romaniuk),' Jenni Romaniuk from the [Ehrenberg-Bass Institute](https://marketingscience.info/) shared what she sees as the three critical features of good ad creatives:
+On the '[Anstice Acast](https://www.anstice.ca/post/a-cast-episode-29-memory-marketing-myths-category-entry-points-and-distinctive-assets-with-jenni-romaniuk){:target="_blank" rel="noopener noreferrer"},' Jenni Romaniuk from the [Ehrenberg-Bass Institute](https://marketingscience.info/){:target="_blank" rel="noopener noreferrer"} shared what she sees as the three critical features of good ad creatives:
 
 ### Grab Attention
 Your ad should capture the audience's attention. No attention, means no impact.
