@@ -6,8 +6,6 @@ categories: marketing
 ---
 
 
-## SEO is more than only content distribution (I was wrong)
-
 For a long time, I told everyone who would listen that "SEO is a content distribution channel." 
 
 And while I still agree with this—it remains one of the most efficient and scalable distribution channels—I’ve come to realize that this view doesn’t fully capture the role SEO can play. 

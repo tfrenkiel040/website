@@ -6,8 +6,6 @@ categories: marketing
 ---
 
 
-## Ad creatives - what makes a good ad?
-
 ![Good Ad Example](/assets/images/ads.jpeg)
 
 
