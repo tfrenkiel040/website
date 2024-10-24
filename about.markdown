@@ -17,7 +17,8 @@ permalink: /about/
 
 <p>I am passionate about mentoring and empowering others, and I strive to lead by example in fostering an inclusive and innovative workplace. I believe that sharing knowledge and working together can lead to extraordinary results.</p>
 
-<p>Curious to learn more about my work or interested in collaborating? Let's connect! Check out my [LinkedIn](https://www.linkedin.com/in/thomasfrenkiel/) and send me a message there.</p>
+<p>Curious to learn more about my work or interested in collaborating? Let's connect! Check out my <a href="https://www.linkedin.com/in/thomasfrenkiel/">LinkedIn</a> and send me a message there.</p>
+
 </div>
 <div class="fl w-40 pa2">
         <img src="{{ '/assets/images/2024pf.jpg' | relative_url }}" alt="Thomas Frenkiel" class="w-100 db center">
