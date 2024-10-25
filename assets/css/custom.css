@@ -18,9 +18,17 @@ display:flex;
 img.
 
 @media (max-width: 600px) {
+    .fl.w-70, .fl.w-30 {
+        float: none !important; /* Remove the float for smaller screens */
+        width: 100% !important;  /* Ensure both elements take up the full width */
+    }
+}
+
+
+@media (max-width: 600px) {
     .fl {
-        width: 100% !important;
         float: none !important;
+        width: 100% !important;
     }
 
 }
@@ -29,6 +37,15 @@ img.
         display:none;
 }
 }
+
+@media (max-width: 600px) {
+    .top-bar a {
+        white-space: nowrap; /* Prevent the name from wrapping */
+        font-size: 1.2rem; /* Adjust font size if needed to fit on one line */
+        padding: 0.2rem 0.5rem; /* Reduce padding to create more room */
+    }
+}
+
 
 /* Main navigation styles */
 .top-bar {
