@@ -12,9 +12,6 @@ Professor Mark Ritson put it plainly: demand generation is the performance marke
 
 A good example of successful demand generation can be found in Richard Rumelt’s *Good Strategy, Bad Strategy*. The book examines POM Wonderful’s success in the pomegranate drink business. POM didn’t create the global desire for health and wellness—that demand already existed. Instead, they built a powerful brand through product development, strategic PR, and advertising. In this way they succeeded at positioning themselves as the quintessential choice for health-conscious consumers.
 
-![From Good Strategy, Bad Strategy](/assets/images/good-strategy.png)
-
-
 Contrast this with Apple’s Vision Pro, a technological marvel priced at $3,500. Despite Apple’s exceptional branding and advertising, the headset struggled to find buyers because the market demand simply wasn’t there—especially at that price. According to [Reuters](https://www.reuters.com/technology/apple-sharply-cuts-back-vision-pro-production-information-reports-2024-10-23/), Apple has significantly scaled back production and may discontinue the current version due to waning sales and stiff competition from more affordable alternatives like Meta’s Quest 3.
 
 The lesson here? True demand generation isn’t about shouting louder; it’s about listening smarter. Understand the desires already in play. Then, position your brand as the best answer to those desires. When a market exists, demand generation can help you win. But without a market, even the best efforts may fall short.
