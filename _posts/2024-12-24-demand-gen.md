@@ -8,7 +8,9 @@ categories: marketing
 
 I have been thinking about the term ‘demand gen’ a lot. It is a much-used term in marketing circles, especially those working in software companies (as I do). But it struck me early on that there wasn’t any clarity about what it actually meant.
 
-Still, I wanted to know what people were talking about, so I asked professor Mark Ritson in a session with MiniMBA alumni. He said that “it’s the performance marketers term for brand building’. Well, I thought, why not just call it that, then?
+Still, I wanted to know what people were talking about, so I asked professor Mark Ritson in a session with MiniMBA alumni. He said that “it’s the performance marketers term for brand building’. Well, I thought, why not just call it that, then? 
+
+I also [asked people on LinkedIn](https://www.linkedin.com/posts/thomasfrenkiel_demandgeneration-marketing-activity-7223673367113961473-pXz-){:target="_blank" rel="noopener noreferrer"} to explain it to me, but wasn't really satisfied with any of the answers.
 
 Another place where I saw the term demand creation was in the book ‘Good Strategy, Bad Strategy’. In the chapter called ‘Creating Higher Demand’, Rumelt writes:
 
