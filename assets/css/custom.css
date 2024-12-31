@@ -30,7 +30,7 @@ text-decoration: none;
     .fl {
         float: none !important;
         width: 100% !important;
-         padding-left: 0px;
+        padding-left: 0px;
         padding-right: 0px;
     
     }
@@ -146,4 +146,57 @@ text-decoration: none;
   text-decoration: underline; /* Underline on hover */
 }
 
+
+/* General rule to show bullets by default */
+ul, ol {
+    list-style: initial; /* Default bullet or number styling */
+    margin: 1em 0;
+    padding-left: 2em;
+}
+
+/* Remove bullets for the hidden menu */
+#off-screen-menu ul, #off-screen-menu ol {
+    list-style: none; /* No bullets or numbers */
+    padding-left: 0; /* Adjust alignment as needed */
+}
+
+
+/* Hide bullets for the post list on homepage and /blog */
+.post-list {
+    list-style: none !important; /* Force no bullets */
+    padding-left: 0 !important; /* Force alignment */
+    margin: 0; /* Optional: ensure no extra spacing */
+}
+
+.post-list li {
+    list-style: none !important;
+    padding-left: 0;
+}
+
+
+/* Ensure bullets are visible for blog posts and web pages */
+.blog-post ul, .blog-post ol,
+.web-page ul, .web-page ol {
+    list-style: disc; /* Bullet styling for unordered lists */
+    padding-left: 2em; /* Indentation for bullets */
+    margin: 1em 0;
+}
+
+/* Optional: Styling for nested lists inside blog posts or pages */
+.blog-post ul ul, .blog-post ol ol,
+.web-page ul ul, .web-page ol ol {
+    list-style-type: circle; /* Customize for nested lists */
+    padding-left: 1.5em;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    ul, ol {
+        padding-left: 1.5em; /* Adjust padding for smaller screens */
+    }
+
+    li {
+        font-size: 0.9rem; /* Reduce font size */
+    }
+}
 

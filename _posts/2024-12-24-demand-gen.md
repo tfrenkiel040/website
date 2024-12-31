@@ -6,13 +6,76 @@ categories: marketing
 ---
 
 
-Marketers love to talk about demand generation, but do we really understand it? It seems some people think of it as creating something out of nothing, but that’s not how it works. Demand generation isn’t about inventing desire for something nobody wants. Instead, it’s about harnessing existing demand and guiding it toward your brand.
+I have been thinking about the term ‘demand gen’ a lot. It is a much-used term in marketing circles, especially those working in software companies (as I do). But it struck me early on that there wasn’t any clarity about what it actually meant.
 
-Professor Mark Ritson put it plainly: demand generation is the performance marketer’s term for “brand building.” It’s not about selling a product or a category—it’s about becoming the brand of choice in a competitive landscape. Think of it as redirecting a flowing river, not summoning rain.
+Still, I wanted to know what people were talking about, so I asked professor Mark Ritson in a session with MiniMBA alumni. He said that “it’s the performance marketers term for brand building’. Well, I thought, why not just call it that, then?
 
-A good example of successful demand generation can be found in Richard Rumelt’s *Good Strategy, Bad Strategy*. The book examines POM Wonderful’s success in the pomegranate drink business. POM didn’t create the global desire for health and wellness—that demand already existed. Instead, they built a powerful brand through product development, strategic PR, and advertising. In this way they succeeded at positioning themselves as the quintessential choice for health-conscious consumers.
+Another place where I saw the term demand creation was in the book ‘Good Strategy, Bad Strategy’. In the chapter called ‘Creating Higher Demand’, Rumelt writes:
 
-Contrast this with Apple’s Vision Pro, a technological marvel priced at $3,500. Despite Apple’s exceptional branding and advertising, the headset struggled to find buyers because the market demand simply wasn’t there—especially at that price. According to [<a href="https://www.reuters.com/technology/apple-sharply-cuts-back-vision-pro-production-information-reports-2024-10-23/" target="_blank">Reuters</a>, Apple has significantly scaled back production and may discontinue the current version due to waning sales and stiff competition from more affordable alternatives like Meta’s Quest 3.
+> “Engineering higher demand for the services of scarce resources is
+> actually the most basic of business stratagems.”
 
-The lesson here? True demand generation isn’t about shouting louder; it’s about listening smarter. Understand the desires already in play. Then, position your brand as the best answer to those desires. When a market exists, demand generation can help you win. But without a market, even the best efforts may fall short.
+  
 
+In this chapter, Rumelt describes POM Wonderful’s success selling pomegranate drinks. But upon reading what they actually did to sell more pomegranate juice, it came down to… Regular, solid, marketing. For example, product development:
+
+  
+
+> “The company also began to study ways of packaging and marketing
+> pomegranate juice. The standard industry approach was to dilute an
+> expensive strong-flavored juice with much larger quantities of blander
+> white grape, apple, and pear juices. That was how Ocean Spray sold its
+> cranberry juice. Lynda Resnick suggested a different concept. Their
+> main pomegranate offering would be 100 percent pure with no fillers.”
+
+  
+  
+
+Positioning:
+
+  
+
+> “It would not be marketed as a soft drink or kids’ sugar kick. Rather,
+> it would be a new category—a fresh, refrigerated antioxidant juice,
+> distributed beside fresh produce.”
+
+  
+  
+
+Brand development:
+
+  
+
+> “The brand name would be POM with the “O” shaped like a heart. ”
+
+  
+  
+
+And PR:
+
+  
+
+> “Lynda worked tirelessly to shape the concept, the package, and the
+> marketing approach. She wrote, gave interviews, and introduced POM to
+> every mover and shaker in her huge network of contacts.”
+
+  
+  
+  
+  
+  
+
+And after reading this, I thought to myself that POM didn't actually generate demand. Instead, they saw an existing demand for health and wellness, and they positioned their product as the best choice for health-conscious consumers.
+
+  
+
+This also aligns with what Dale w. Harrison has been sharing on LinkedIn: [there is no such thing as demand generation](https://www.linkedin.com/feed/update/urn:li:activity:7157471671409373184/){:target="_blank" rel="noopener noreferrer"}.  
+
+What we as marketers can do, is focus on better understanding our customers. What are their needs and wants? What are the category entry points we can try to tie our brand to?
+
+In that way, we can work with existing demand and try to become the preferred brand for customers.
+
+And to all the people still using the term 'demand generation'... The only thing you are generating is a lot of confusion - at least for me.
+
+But what do you think?
+Is demand generation just another term for brand building? Or do you know a good definition that explains what makes it a specific thing, maybe a specific marketing tactic? Let me know! (I don't have the option to allow comments yet, so please reach out on [LinkedIn](https://www.linkedin.com/in/thomasfrenkiel/){:target="_blank" rel="noopener noreferrer"}). 

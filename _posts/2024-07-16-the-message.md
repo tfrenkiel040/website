@@ -15,9 +15,9 @@ SEO isn't just a 'top of funnel' or 'bottom of funnel' marketing tactic. Like ad
 
 Let's take the example of doing SEO for a webshop selling mattresses:
 
--	Optimizing your mattress product pages for search engines? That's bottom funnel.
--	A blog post about 'tips for falling asleep in hot weather'? That's top of funnel.
--	Improving your about page, FAQ, and return information? That's mid-funnel.
+*	Optimizing your mattress product pages for search engines? That's bottom funnel.
+*	A blog post about 'tips for falling asleep in hot weather'? That's top of funnel.
+*	Improving your about page, FAQ, and return information? That's mid-funnel.
 
 Just like email marketing and advertising, SEO can't be pigeonholed. It's not the channel, but the content and targeting that determine whether it helps with awareness (TOFU), trust (MOFU), or conversion (BOFU).
 
