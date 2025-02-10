@@ -1,13 +1,11 @@
 ---
 layout: post
-title:  "Thoughts about campaigns"
-date:   2025-01-21 10:00:00 +0200
+title:  "Some thoughts about campaigns"
+date:   2025-02-10 10:00:00 +0200
 categories: marketing
 ---
 
 
-
-# Some thoughts about marketing campaigns
 
 What is a marketing campaign? I'll start by sharing what I think are the components that make a campaign, well, a campaign.
 
