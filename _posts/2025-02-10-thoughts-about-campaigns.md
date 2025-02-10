@@ -1,14 +1,13 @@
 ---
 layout: post
-title:  "Understanding demand gen (2)"
+title:  "Thoughts about campaigns"
 date:   2025-01-21 10:00:00 +0200
 categories: marketing
 ---
 
 
 
-
-# Some Thoughts About Marketing Campaigns
+# Some thoughts about marketing campaigns
 
 What is a marketing campaign? I'll start by sharing what I think are the components that make a campaign, well, a campaign.
 
