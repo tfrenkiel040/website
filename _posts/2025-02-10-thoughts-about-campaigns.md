@@ -11,10 +11,13 @@ What is a marketing campaign? I'll start by sharing what I think are the compone
 
 ## The audience
 
-The first component is the **audience**. Who are you trying to reach with this campaign? That should be clearly defined. Even if you're planning to use mass media, you still need to define who it's for. Mass media reaches a lot of people, but you want it to resonate with a specific group.
+The first component is the **audience**. Who are you trying to reach with this campaign? That should be clearly defined. Even if you're planning to use mass media, you still need to define who it's for. Mass media reaches a lot of people, but you want it to resonate with a specific group. 
 
-If you try to create a message that works for everyone, it probably won't work for anyone. (This is actually one of the first things I learned during my Bachelor in communication management.)
+At the same time, segmentation is not as straighforward as it seems. This is because there's usually a lot of overlap between groups. For example 'wine drinkers' and 'beer drinkers' may sound like twho separate groups, but in reality, there's a lot of overlap: people who drink both wine and beer. And vice versa, the group of 'beer drinkers' is not a homogeneous group, but consists of people with many different opinions and preferences.
 
+Yet, if you try to create a message that works for everyone, it probably won't work for anyone. (This is actually one of the first things I learned during my Bachelor in communication management.)
+
+So before running any campaign, make sure to spend some time thinking about the audience you want to reach. What makes them tick?
 
 
 ## The message (and the product)
