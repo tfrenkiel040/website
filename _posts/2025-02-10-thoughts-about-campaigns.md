@@ -11,7 +11,7 @@ What is a marketing campaign? I'll start by sharing what I think are the compone
 
 ## The audience
 
-The first component is the **audience**. Who are you trying to reach with this campaign? That should be clearly defined. Even if you're planning to use mass media, you still need to define who it's for. Mass media reaches a lot of people, but you want it to resonate with a specific segment. 
+The first component is the audience. Who are you trying to reach with this campaign? That should be clearly defined. Even if you're planning to use mass media, you still need to define who it's for. Mass media reaches a lot of people, but you want it to resonate with a specific segment. 
 
 At the same time, segmentation is not as straighforward as it seems. This is because there's usually a lot of overlap between groups. For example 'wine drinkers' and 'beer drinkers' may sound like twho separate groups, but in reality, there's a lot of overlap: people who drink both wine and beer. And vice versa, the group of 'beer drinkers' is not a homogeneous group, but consists of people with many different opinions and preferences.
 
@@ -22,9 +22,9 @@ So before running any campaign, make sure to spend some time thinking about the 
 
 ## The message (and the product)
 
-The second ingredient is the **message**. What are you trying to communicate to the audience you've just defined? Usually, it's related to the product you're trying to sell. But in many cases, the message is not the product itself.
+The second ingredient is the message. What are you trying to communicate to the audience you've just defined? Usually, it's related to the product you're trying to sell. But in many cases, the message is not the product itself.
 
-For example, **Coca-Cola** doesn't focus solely on taste or ingredients of their products. They sell a feeling: **happiness**, **togetherness**, and **having a good time**. They're tying their brand to that feeling.
+For example, Coca-Cola doesn't focus solely on taste or ingredients of their products. They sell a feeling: **happiness**, **togetherness**, and **having a good time**. They're tying their brand to that feeling.
 
 ### Category Entry Points
 
@@ -38,13 +38,13 @@ A classic example is **Volvo**. They're famous for **safety**. That doesn't mean
 
 ### The Three C's of Positioning:
 
-1. **Customer:** Does the position matter to them?
-2. **Company:** Can you actually uphold this position? (Volvo couldn’t claim safety if their cars consistently failed safety tests.)
-3. **Competition:** Is this position already taken? It would be tough for another car brand to claim "the safest cars" because Volvo owns that space.
+1. Customer: Does the position matter to them?
+2. Company: Can you actually uphold this position? (Volvo couldn’t claim safety if their cars consistently failed safety tests.)
+3. Competition: Is this position already taken? It would be tough for another car brand to claim "the safest cars" because Volvo owns that space.
 
 ## Messaging 
 
-Even with a clear position, there's still work to do. That's where **messaging** comes in.
+Even with a clear position, there's still work to do. That's where messaging comes in.
 
 Volvo’s position is safety, but every car they sell will have additional messaging:
 
@@ -57,17 +57,17 @@ So depending on the campaign, your message will focus on the overall brand, a su
 
 ## Media Planning
 
-After defining your audience, product, and messaging, you need to figure out **where** to reach these people. This is your **media plan**.
+After defining your audience, product, and messaging, you need to figure out where to reach these people. This is your media plan.
 
 ### Multi-Channel Campaigns
 
 Many campaigns are multi-channel, which means using different platforms:
 
-- **YouTube ads**
-- **Instagram ads**
-- **TV commercials**
-- **Out-of-home (billboards, posters)**
-- **Print media**
+- YouTube ads
+- Instagram ads
+- TV commercials
+- Out-of-home (billboards, posters)
+- Print media
 
 Also make sure to read [this post from Grace Kite](https://magicnumbers.co.uk/articles/in-brand-building-now-its-the-little-things-that-count/){:target="_blank" rel="noopener noreferrer"}, which explains that adding more channels to your media mix creates synergy, which results in a stronger brand and higher sales.
 
@@ -75,36 +75,38 @@ Also make sure to read [this post from Grace Kite](https://magicnumbers.co.uk/ar
 
 Even if you pick TV, for example, you need to decide:
 
-- **What specific channels?**
-- **Prime time or off-peak?**
-- **Before a football match or during a family-friendly show?**
+- What specific channels?
+- Prime time or off-peak?
+- Before a football match or during a family-friendly show?
 
 For online media, it's the same. If you choose social media, which platforms? And within those, what targeting options?
 
 ### The PESO Model
 
-Another good framework is **PESO**:
+Another good framework is PESO:
 
-- **Paid:** Advertising like TV, social, or display ads.
-- **Earned:** PR and media mentions.
-- **Shared:** Partnerships and collaborations.
-- **Owned:** Your website, email lists, even physical stores.
+- Paid: Advertising like TV, social, or display ads.
+- Earned: PR and media mentions.
+- Shared: Partnerships and collaborations.
+- Owned: Your website, email lists, even physical stores.
 
 ## Budget and Runtime
 
-Another key ingredient is the **budget**. How much can you invest?
+Another key ingredient is the budget. How much can you invest?
 
-Then comes **runtime**—how long will the campaign run? There’s an important distinction:
+Then comes runtime. How long will the campaign run? There’s an important distinction:
 
-- **Spike Campaigns:** For product launches or events, with heavy promotion over a short period (e.g., 4–6 weeks).
-- **Always-On Campaigns:** Continuous campaigns, often for brand awareness.
+- Spike Campaigns: For product launches or events, with heavy promotion over a short period (e.g., 4–6 weeks).
+- Always-On Campaigns: Continuous campaigns, often for brand awareness.
+
+And of course, the more money you can invest, the more people your campaign can reach. 
 
 ## Brand vs. Performance Campaigns
 
-- **Brand Campaigns:** Focused on building brand recognition. (Think of Coca-Cola’s holiday truck ad—no call to action, just brand vibes.)
-- **Performance Campaigns:** Focused on driving action, like "Book Now" or "Get \$2000 Off Today."
+- Brand Campaigns:** Focused on building brand recognition. (Think of Coca-Cola’s holiday truck ad—no call to action, just brand vibes.)
+- Performance Campaigns: Focused on driving action, like "Book Now" or "Get \$2000 Off Today."
 
-Even performance ads should include **brand codes** (logos, colors, taglines) to build brand recognition over time.
+Even performance ads should include brand codes (logos, colors, taglines) to build brand recognition over time.
 
 ## Final Thoughts
 
