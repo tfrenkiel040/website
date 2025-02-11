@@ -90,7 +90,11 @@ Another good framework is PESO:
 - Shared: Partnerships and collaborations.
 - Owned: Your website, email lists, even physical stores.
 
-## Budget and Runtime
+So, when planning your campaign, don't stop when you've identified the paid channels you want to use. Also think about your partnerships, owned media, and if there is an opportunity to get some press coverage.
+
+When doing online paid media, make sure you create a bespoke landing page for your campaign. That ensures a consistent user experience from ad impression to website visit. 
+
+## Budget and runtime
 
 Another key ingredient is the budget. How much can you invest?
 
@@ -108,7 +112,7 @@ And of course, the more money you can invest, the more people your campaign can 
 
 Even performance ads should include brand codes (logos, colors, taglines) to build brand recognition over time.
 
-## Final Thoughts
+### What did I forget?
 
 These are just some thoughts about marketing campaigns. Let me know if I forgot anything!
 
