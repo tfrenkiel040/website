@@ -103,7 +103,7 @@ And of course, the more money you can invest, the more people your campaign can 
 
 ## Brand vs. Performance Campaigns
 
-- Brand Campaigns:** Focused on building brand recognition. (Think of Coca-Cola’s holiday truck ad—no call to action, just brand vibes.)
+- Brand Campaigns: Focused on building brand recognition. (Think of Coca-Cola’s holiday truck ad—no call to action, just brand vibes.)
 - Performance Campaigns: Focused on driving action, like "Book Now" or "Get \$2000 Off Today."
 
 Even performance ads should include brand codes (logos, colors, taglines) to build brand recognition over time.
