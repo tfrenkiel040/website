@@ -11,7 +11,7 @@ What is a marketing campaign? I'll start by sharing what I think are the compone
 
 ## The audience
 
-The first component is the **audience**. Who are you trying to reach with this campaign? That should be clearly defined. Even if you're planning to use mass media, you still need to define who it's for. Mass media reaches a lot of people, but you want it to resonate with a specific group. 
+The first component is the **audience**. Who are you trying to reach with this campaign? That should be clearly defined. Even if you're planning to use mass media, you still need to define who it's for. Mass media reaches a lot of people, but you want it to resonate with a specific segment. 
 
 At the same time, segmentation is not as straighforward as it seems. This is because there's usually a lot of overlap between groups. For example 'wine drinkers' and 'beer drinkers' may sound like twho separate groups, but in reality, there's a lot of overlap: people who drink both wine and beer. And vice versa, the group of 'beer drinkers' is not a homogeneous group, but consists of people with many different opinions and preferences.
 
@@ -22,9 +22,9 @@ So before running any campaign, make sure to spend some time thinking about the 
 
 ## The message (and the product)
 
-The second ingredient is the **message**. What are you trying to communicate to the audience you've just defined? Usually, it's related to the product you're trying to sell. But in many cases, it's not about the product itself.
+The second ingredient is the **message**. What are you trying to communicate to the audience you've just defined? Usually, it's related to the product you're trying to sell. But in many cases, the message is not the product itself.
 
-For example, **Coca-Cola** doesn't focus solely on taste or ingredients. They sell a feeling—**happiness**, **togetherness**, and **having a good time**. They're tying their brand to that feeling.
+For example, **Coca-Cola** doesn't focus solely on taste or ingredients of their products. They sell a feeling: **happiness**, **togetherness**, and **having a good time**. They're tying their brand to that feeling.
 
 ### Category Entry Points
 
@@ -68,6 +68,8 @@ Many campaigns are multi-channel, which means using different platforms:
 - **TV commercials**
 - **Out-of-home (billboards, posters)**
 - **Print media**
+
+Also make sure to read [this post from Grace Kite](https://magicnumbers.co.uk/articles/in-brand-building-now-its-the-little-things-that-count/){:target="_blank" rel="noopener noreferrer"}, which explains that adding more channels to your media mix creates synergy, which results in a stronger brand and higher sales.
 
 ### Layers Within Media Planning
 
