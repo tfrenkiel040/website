@@ -9,7 +9,7 @@ categories: marketing
 
 What is a marketing campaign? I'll start by sharing what I think are the components that make a campaign, well, a campaign.
 
-## The Audience
+## The audience
 
 The first component is the **audience**. Who are you trying to reach with this campaign? That should be clearly defined. Even if you're planning to use mass media, you still need to define who it's for. Mass media reaches a lot of people, but you want it to resonate with a specific group.
 
@@ -17,7 +17,7 @@ If you try to create a message that works for everyone, it probably won't work f
 
 
 
-## The message (and the Product)
+## The message (and the product)
 
 The second ingredient is the **message**. What are you trying to communicate to the audience you've just defined? Usually, it's related to the product you're trying to sell. But in many cases, it's not about the product itself.
 
@@ -27,7 +27,7 @@ For example, **Coca-Cola** doesn't focus solely on taste or ingredients. They se
 
 A great way to think about this is with **category entry points**. I saw a Coca-Cola ad that said something like, "Taco nights with Coca-Cola." The idea is to associate taco nights or dinner parties with Coca-Cola, so the next time you're planning a gathering, you remember to buy it.
 
-## Product Positioning
+## Positioning
 
 Next, let's talk about **positioning**. It's not just about the product itself, but how you're positioning that product or brand in the market. More importantly, it's about the position you want to take in the mind of your audience.
 
@@ -39,7 +39,7 @@ A classic example is **Volvo**. They're famous for **safety**. That doesn't mean
 2. **Company:** Can you actually uphold this position? (Volvo couldn’t claim safety if their cars consistently failed safety tests.)
 3. **Competition:** Is this position already taken? It would be tough for another car brand to claim "the safest cars" because Volvo owns that space.
 
-## Messaging Layers
+## Messaging 
 
 Even with a clear position, there's still work to do. That's where **messaging** comes in.
 
@@ -48,8 +48,9 @@ Volvo’s position is safety, but every car they sell will have additional messa
 - "This is an SUV that’s very safe."
 - "This is a family car that’s very safe."
 - "This is a small city car that’s safe *and* has an amazing design."
+- "This car is on sale now, buy before the end of the month to get additional discounts."
 
-So depending on the campaign, your message will have different layers.
+So depending on the campaign, your message will focus on the overall brand, a subset of products (new product line for example), or a specific product. 
 
 ## Media Planning
 
