@@ -4,6 +4,8 @@ title: Contact
 permalink: /contact/
 ---
 
-## Want to get in touch?
+<div class="mw7 center ph3 f4 lh-copy">
+  <h2>Want to get in touch?</h2>
 
-Find me on [Linkedin](https://www.linkedin.com/in/thomasfrenkiel/){:target="_blank" rel="noopener noreferrer"} and reach out there, or send me a message on [Threads](https://www.threads.net/@tfrenkiel){:target="_blank" rel="noopener noreferrer"}.
+  <p>Find me on <a href="https://www.linkedin.com/in/thomasfrenkiel/" target="_blank" rel="noopener noreferrer">Linkedin</a> and reach out there, or send me a message on <a href="https://www.threads.net/@tfrenkiel" target="_blank" rel="noopener noreferrer">Threads</a>.</p>
+</div>

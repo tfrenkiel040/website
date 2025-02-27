@@ -2,33 +2,33 @@
 layout: default
 ---
 
-<div class="home">
+<div class="home mw7 center ph3 f4 lh-copy">
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+    <h1 class="page-heading f2 lh-title">{{ page.title }}</h1>
   {%- endif -%}
 
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
+    <ul class="post-list list pl0">
       {%- for post in site.posts -%}
-      <li>
+      <li class="mv4">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
+        <span class="post-meta f6 ttu tracked gray">{{ post.date | date: date_format }}</span>
+        <h3 class="f4 fw6 mt2 mb3 lh-title">
+          <a class="post-link black-70 link dim" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+          <div class="post-excerpt black-70">
+            {{ post.excerpt }}
+          </div>
         {%- endif -%}
       </li>
       {%- endfor -%}
     </ul>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    <p class="rss-subscribe tc mt4 f5">subscribe <a href="{{ "/feed.xml" | relative_url }}" class="link dim blue">via RSS</a></p>
   {%- endif -%}
-
 </div>
