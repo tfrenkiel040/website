@@ -1,17 +1,18 @@
 ---
 layout: post
-title:  "Building brand"
+title:  "Building brand: which channels are most effective?"
 date:   2024-05-10 15:25:35 +0200
 categories: marketing
 ---
 
 
-## Building a brand – which channels truly resonate?
+In a presentation for [IPA (Institute of Practitioners in Advertising)](https://www.linkedin.com/company/theipa/){:target="_blank" rel="noopener noreferrer"}, econometrics expert [Dr Grace Kite](https://www.linkedin.com/in/grace-kite/){:target="_blank" rel="noopener noreferrer"} shared valuable insights from the latest research on advertising effectiveness.
+
+
 
 ![Slide from IPA presentation](/assets/images/channels-for-brand.jpg)
 
 
-In a phenomenal presentation for [IPA (Institute of Practitioners in Advertising)](https://www.linkedin.com/company/theipa/){:target="_blank" rel="noopener noreferrer"}, econometrics expert [Dr Grace Kite](https://www.linkedin.com/in/grace-kite/){:target="_blank" rel="noopener noreferrer"} shared valuable insights from the latest research on advertising effectiveness.
 
 Take the screengrabbed slide for example. It shows that while search ads may drive short-term gains, they don't contribute to long-lasting brand building.For brand, multi-sensory advertising works better.
 
