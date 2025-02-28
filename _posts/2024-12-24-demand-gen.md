@@ -78,6 +78,3 @@ What we as marketers can do, is focus on better understanding our customers. Wha
 In that way, we can work with existing demand and try to become the preferred brand for customers.
 
 And to all the people still using the term 'demand generation'... The only thing you are generating is a lot of confusion - at least for me.
-
-But what do you think?
-Is demand generation just another term for brand building? Or do you know a good definition that explains what makes it a specific thing, maybe a specific marketing tactic? Let me know! (I don't have the option to allow comments yet, so please reach out on [LinkedIn](https://www.linkedin.com/in/thomasfrenkiel/){:target="_blank" rel="noopener noreferrer"}). 

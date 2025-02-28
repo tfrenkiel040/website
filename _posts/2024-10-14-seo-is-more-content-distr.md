@@ -6,7 +6,7 @@ categories: marketing
 ---
 
 
-For a long time, I told everyone who would listen that "SEO is a content distribution channel." 
+For a long time, I told everyone who would listen that "SEO is a content distribution channel." I even wrote that in my previous post. 
 
 And while I still agree with this—it remains one of the most efficient and scalable distribution channels—I’ve come to realize that this view doesn’t fully capture the role SEO can play. 
 I am currently reading Good Strategy, Bad Strategy by Richard Rumelt, and this made me realize SEO is more than just 'a tactic' to get your content in front of your audience.
