@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Future of Building is Here, and It's Called Cursor"
+title: "Cursor AI"
 date: 2025-02-27 10:00:00 +0200
 categories: technology
 ---
