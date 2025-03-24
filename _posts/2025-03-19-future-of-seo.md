@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What does the future of SEO look like?"
-date: 2024-03-19
+date: 2025-03-19
 categories: [SEO, AI]
 ---
 
