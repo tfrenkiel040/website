@@ -25,3 +25,8 @@ In other words, while buyer behaviour changes from Search to Chat, content creat
 2. Search engines and LLMs alike can access and crawl our content
 
 If we do that, we will still get organic traffic (albeit less), and we will get mentioned in the answers LLMs give to users when prompted something like: "What is the best tool to get marketing data into a data warehouse?". Being part of the answer for those type of commercial questions, (which come in unlimited variations) is crucial. 
+
+So maybe the future of SEO isn’t so dire after all.
+If you work in SEO, your job is still the same: create useful content, deliver a great user experience, and serve the full funnel—not just the top.
+Because if you consistently deliver value, you’ll still rank.
+And more importantly, in this new LLM-powered world: you’ll be part of the answer.
