@@ -10,8 +10,47 @@
     <title>Pacman Game</title>
     <script type="module" crossorigin src="assets/index-CEiifBqE.js"></script>
     <link rel="stylesheet" crossorigin href="assets/index-0VN0QdU-.css">
+    <style>
+      #start-container {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1000;
+        text-align: center;
+      }
+      #start-button {
+        padding: 15px 30px;
+        font-size: 24px;
+        background-color: #ffd700;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Funnel Display', sans-serif;
+        transition: transform 0.2s;
+      }
+      #start-button:hover {
+        transform: scale(1.1);
+      }
+      #root {
+        opacity: 0;
+        transition: opacity 0.5s;
+      }
+      #root.visible {
+        opacity: 1;
+      }
+      .game-info {
+        color: #ffa500;  /* Orange color */
+        font-weight: bold;
+        font-size: 1.2em;
+      }
+    </style>
   </head>
   <body>
+    <div id="start-container">
+      <button id="start-button">Start Game</button>
+    </div>
     <div id="root"></div>
+    <script src="game-wrapper.js"></script>
   </body>
 </html> 
