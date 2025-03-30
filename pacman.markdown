@@ -12,7 +12,7 @@ permalink: /pacman/
         <h2>How to Play</h2>
         <p>Use the arrow keys (←↑↓→) to move Pacman around the maze.</p>
         <p>Collect all the dots to win! Watch out for the ghosts - they'll end your game if they catch you.</p>
-        <p>Grab a power-up (large flashing dot) to turn the tables: for a short time, you'll be able to eat the ghosts for extra points!</p>
+        <p>Grab a power-up to turn the tables: for a short time, you'll be able to eat the ghosts for extra points!</p>
     </div>
 </div>
 
