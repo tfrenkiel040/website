@@ -1,22 +1,15 @@
 ---
 layout: post
-title: "Vibecoding a Pacman Game with AI"
+title: "Vibecoding a Funnel-branded Pacman game"
 date: 2025-04-01
 categories: [Projects, AI, Gaming]
 ---
 
-## My AI-Powered Pacman Adventure
 
-I'm excited to share a little passion project I've been working on: a [playable Pacman game](https://thomasfrenkiel.com/pacman/) that I created through vibecoding with the help of Cursor.
+I vibecoded a playable Pacman game! For those unfamiliar with the term, vibecoding is using AI to code. Ideally, you don't even type, but you just use speech to text to write prompts, and the AI creates does all the coding for you. With tools like Cursor, Loveable, and Replit gaining traction, this way to build stuff is becoming increasingly popular. 
 
-For those unfamiliar with the term, vibecoding is essentially a collaborative coding approach where you provide high-level direction and AI helps implement the details. It's been a surprisingly rewarding way to create something fun without getting bogged down in every implementation detail.
 
-The game features classic Pacman mechanics - navigating mazes, collecting dots, avoiding ghosts - but with my own personal touch. It runs smoothly in the browser and brings back all that nostalgic arcade feeling.
+I made the first version during a Funnel marketing department hackathon, then worked more on it in the evening hours, and put it on my personal website. Give [the game a try](https://thomasfrenkiel.com/pacman/) and let me know what you think! 
 
-What makes this project special to me is that it represents the intersection of my marketing background with new AI capabilities. I started this during a company-wide hackathon at Funnel, where I work. Funnel is truly exceptional as an employer for giving all employees dedicated time to experiment with AI and expand our skills. This initiative wasn't just about building a game - it was about exploring how AI tools can enhance our creativity and productivity.
 
-The marketing department hackathon provided the perfect opportunity to step outside my comfort zone and try something completely different from my day-to-day SEO work. It's been eye-opening to see how AI tools like Cursor can bridge the gap between having a creative vision and implementing the technical aspects.
-
-I encourage you to [give the game a try](https://thomasfrenkiel.com/pacman/) and let me know what you think! It's a small project, but one that represents a new way of creating that I find incredibly exciting.
-
-As AI continues to evolve, I'm looking forward to more vibecoding adventures that blend human creativity with AI assistance. This is just the beginning! 
+![Pacman Game Screenshot](/assets/images/pacman.png) 
