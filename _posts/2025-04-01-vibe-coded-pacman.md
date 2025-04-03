@@ -2,7 +2,7 @@
 layout: post
 title: "Vibecoding a Funnel-branded Pacman game"
 date: 2025-04-02
-categories: [Projects, AI, Gaming]
+categories: [Projects, AI]
 ---
 
 
