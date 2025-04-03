@@ -15,11 +15,11 @@ permalink: /long-sentence-highlighter/
 
 ## Overview
 
-Long Sentence Highlighter is a Chrome extension that helps improve readability by highlighting overly long sentences on any webpage. It's perfect for writers, editors, content creators, and anyone who wants to create more digestible content.
+Long Sentence Highlighter is a Chrome extension that helps improve readability by highlighting overly long sentences on any webpage. It’s perfect for writers, editors, content creators, and anyone who wants to make their content easier to read.
+
 
 ### Key Features
 
-- **Automatic Detection**: Instantly highlights sentences exceeding your specified word count
 - **Customizable Thresholds**: Set your preferred word count threshold
 - **Toggle Functionality**: Easily turn highlighting on or off
 - **Zero Dependencies**: Lightweight performance with no external libraries
@@ -27,18 +27,12 @@ Long Sentence Highlighter is a Chrome extension that helps improve readability b
 
 ## Installation Instructions
 
-### Chrome Web Store (Recommended)
+### Chrome Web Store 
 
 1. Visit the [Long Sentence Highlighter page](https://chromewebstore.google.com/detail/fgklfjfnajfdfiefdphepgejkgmlplcc) on the Chrome Web Store
 2. Click "Add to Chrome"
 3. Confirm the installation when prompted
 
-### Manual Installation (Developer Mode)
-
-1. Download the extension files from [GitHub](https://github.com/your-username/long-sentence-highlighter)
-2. Go to `chrome://extensions/` in your Chrome browser
-3. Enable "Developer mode" in the top-right corner
-4. Click "Load unpacked" and select the downloaded extension folder
 
 ## Usage Guide
 
