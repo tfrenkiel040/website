@@ -5,29 +5,26 @@ date: 2025-04-03
 categories: [Projects, Chrome Extensions, Writing]
 ---
 
-I'm excited to announce the release of **Long Sentence Highlighter 2.0** for Chrome! This major update brings significant improvements to my popular readability extension that helps writers and content creators identify overly long sentences in their work.
+In 2023 ChatGPT was relatively new. And people started experimenting with using ChatGPT to help them code. 
 
-Originally created in April 2023, the Long Sentence Highlighter has been completely revamped with:
+I don't exactly remember who inspired me to do this, but I started with creating a Google Chrome extension. I simply asked ChatGPT how to make one and used Sublime Text to create the files needed.
 
-- A redesigned, more intuitive user interface
-- Improved sentence detection algorithm that better handles complex punctuation
-- Customizable highlight colors to suit your preferences
-- Better compatibility with dynamic websites and modern web apps
-- Reduced CPU and memory usage for improved performance
+The extension I created was a very simple tool that on the webpage highlights all the sentences with too many words. Where 'too many' is defined by the user.
 
-If you're not familiar with it, the Long Sentence Highlighter is a simple but powerful tool that automatically highlights sentences exceeding your specified word count on any webpage. It's particularly useful for:
+I think this is useful for people who work in corporate communications where the workers might not be super literate, for example a large employer like McDonald's might have a lot of young people working there and some of them may not have the literacy to read super long sentences. 
 
-- Writers looking to improve readability
-- Editors reviewing content
-- Content creators optimizing for reader engagement
-- Anyone who wants to create more digestible content
+More importantly, is when governments need to communicate to their people, be at the municipality or the tax office or another government body. The information they share is crucial and they need to make sure that it can be read and understood by as many people as possible.
 
-The extension is designed with privacy in mind - it runs entirely in your browser without collecting or transmitting any data.
+And research shows that longer sentences are a lot harder to comprehend than short sentences.
 
-**[Check out the full details and installation instructions →](/long-sentence-highlighter/)**
+So with this chrome extension a communications manager or web editor can go to their own website and their own official documents and check if they have very long sentences all important pages. And if they do, they can then try to edit the content making it easier to read.
 
-You can also [install directly from the Chrome Web Store](https://chromewebstore.google.com/detail/fgklfjfnajfdfiefdphepgejkgmlplcc).
+So this was two years ago and I sort of forgot about making this until one of my colleagues, Bruno, mentioned it to me when I was talking about AI with him.
 
-I'm always looking for feedback, so if you give it a try, I'd love to hear your thoughts on LinkedIn.
+And I realised that this tool that I made in 2023, which was not good at all to be honest needed to be improved. The original version had a major flaw - it would never give the right word count for sentences that contained links to other pages. The HTML link tags would confuse the word counting algorithm, making the tool unreliable for many real-world websites. And I also knew that with Cursor AI, this would be easier than ever to fix.
 
-[![Long Sentence Highlighter Screenshot](/assets/images/LSH3.jpg)](/long-sentence-highlighter/) 
+So today in the morning I found the files that I used in 2023 opened a new project in Cursor, worked for maybe an hour and maybe 10 prompts. And then I was able to upload a major improved version to the chrome web Store. 
+
+I still have some ideas to further improve this chrome extension, but I am happy that I was able to improve it today while taking care of my five month old daughter (everything was basically done during her naps. 
+
+If you wanna try it, you can add the long sentence highlighter to Google Chrome [here](https://chromewebstore.google.com/detail/fgklfjfnajfdfiefdphepgejkgmlplcc). 

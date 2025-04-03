@@ -4,7 +4,6 @@ title: "Long Sentence Highlighter"
 permalink: /long-sentence-highlighter/
 ---
 
-# Long Sentence Highlighter Chrome Extension
 
 <div class="extension-header">
   <img src="/assets/images/LSH1.jpg" alt="Long Sentence Highlighter Icon" class="extension-icon">
@@ -113,16 +112,21 @@ For support, feature requests, or bug reports, please reach out to me on LinkedI
 }
 
 .screenshot {
-  max-width: 100%;
+  max-width: 48%;
   border: 1px solid #ddd;
   border-radius: 4px;
-  margin: 1.5rem 0;
+  margin: 0.5rem 1%;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  display: inline-block;
 }
 
 .screenshot-container {
   margin: 2rem 0;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .contact-link {
