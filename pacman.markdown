@@ -5,7 +5,8 @@ permalink: /pacman/
 ---
 
 <div class="pacman-container">
-    <h1>Pacman Game</h1>
+    <h2>Funnel Pacman</h2>
+    <p><em>The game can only be played on laptop/desktop, not on mobile devices.</em></p> 
     <iframe src="/assets/pacman/index.html" style="width: 100%; height: 600px; border: none;"></iframe>
     
     <div class="game-instructions">
