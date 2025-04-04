@@ -13,9 +13,8 @@ permalink: /contact/
   
   <p>If you prefer email, you can reach me at: <span class="email-protection">tfrenk<span style="display:none">no-spam</span>iel@gm<span style="display:none">hunter2</span>ail.com</span></p>
 
-  <p class="f5 i mt4">I try to respond to all messages within a few days, but sometimes life gets busy. If you don't hear back from me, feel free to send a gentle reminder!</p>
 </div>
-
+<br>
 <script>
   // Simple email obfuscation
   document.addEventListener('DOMContentLoaded', function() {
