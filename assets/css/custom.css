@@ -205,3 +205,22 @@ ul, ol {
     font-size: 18px !important;
 }
 
+/* Ensure recent posts section is visible */
+.recent-posts-section {
+    display: block;
+    clear: both;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.post-list-heading {
+    display: block !important;
+    margin: 1rem 0;
+}
+
+.post-list {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
