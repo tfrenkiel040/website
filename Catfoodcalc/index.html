@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Food Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="app-header">
+            <h1>Cat Food Calculator</h1>
+        </header>
+        
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+                <div class="circle active">1</div>
+                <div class="circle">2</div>
+                <div class="circle">3</div>
+                <div class="circle">4</div>
+            </div>
+            <div class="step-labels">
+                <div class="step-label active">Start</div>
+                <div class="step-label">Cat Info</div>
+                <div class="step-label">Food Info</div>
+                <div class="step-label">Results</div>
+            </div>
+        </div>
+        
+        <!-- Step 1: Welcome Screen -->
+        <div class="form-section active" id="welcome-section">
+            <div class="card">
+                <div class="card-icon">
+                    <i class="fas fa-cat"></i>
+                </div>
+                <div class="card-content">
+                    <h2>Welcome!</h2>
+                    <p>This tool will help you determine the optimal amount of food for your cat based on their specific needs.</p>
+                    <p>You'll provide information about your cat and their food options, and we'll calculate a balanced feeding plan.</p>
+                    <button id="start-btn" class="btn start-btn">Get Started</button>
+                    
+                    <div class="disclaimer-box">
+                        <h3>Important Notes</h3>
+                        <ul>
+                            <li>This tool is designed for <strong>adult cats only</strong> (12 months and older), not for kittens.</li>
+                            <li>Some specific breeds may have special dietary needs not accounted for in this calculator.</li>
+                            <li>This tool provides a starting point for feeding recommendations. Adjustments may be needed based on your cat's individual response.</li>
+                            <li>Cats with severe overweight conditions should receive specific advice from a veterinarian.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="documentation-link">
+                        <p><a href="documentation.html" target="_blank">View detailed documentation and calculation methods</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Step 2: Cat Information -->
+        <div class="form-section" id="cat-info-section">
+            <div class="card">
+                <form id="cat-form">
+                    <div class="form-group">
+                        <label for="cat-name">Cat's Name:</label>
+                        <input type="text" id="cat-name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="neutering-status">Is your cat spayed/neutered?</label>
+                        <select id="neutering-status" required>
+                            <option value="">Select...</option>
+                            <option value="neutered">Yes</option>
+                            <option value="intact">No</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="weight-status">
+                            Weight Status:
+                            <span class="help-icon" data-modal="weight-status-modal">
+                                <i class="fas fa-question-circle"></i>
+                            </span>
+                        </label>
+                        <select id="weight-status" required>
+                            <option value="">Select...</option>
+                            <option value="overweight">Overweight</option>
+                            <option value="underweight">Underweight</option>
+                            <option value="ideal">Ideal Weight</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="activity-level">Activity Level:</label>
+                        <select id="activity-level" required>
+                            <option value="">Select...</option>
+                            <option value="sleepy">Couch Potato</option>
+                            <option value="active">Playful Indoor</option>
+                            <option value="outdoor">Outdoor</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="cat-age">Age Category:</label>
+                        <select id="cat-age" required>
+                            <option value="">Select...</option>
+                            <option value="young-adult">Young Adult (1-7 years)</option>
+                            <option value="early-senior">Mature Adult (7-12 years)</option>
+                            <option value="senior">Senior (12+ years)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="cat-weight">Current Weight (kg):</label>
+                        <input type="number" id="cat-weight" min="0" step="0.1" required>
+                    </div>
+                    
+                    <div class="button-group">
+                        <button type="button" id="cat-prev-btn" class="btn btn-secondary">Back</button>
+                        <button type="button" id="cat-next-btn" class="btn">Next</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <!-- Step 3: Food Information -->
+        <div class="form-section" id="food-info-section">
+            <div class="card">
+                <div id="food-forms-container">
+                    <div class="food-type-section">
+                        <h2>Dry Food</h2>
+                        <div id="dry-food-container">
+                            <!-- Dry food forms will be added here dynamically -->
+                        </div>
+                        <button type="button" id="add-dry-food-btn" class="btn btn-small">
+                            <i class="fas fa-plus"></i> Add Dry Food
+                        </button>
+                    </div>
+                    
+                    <div class="food-type-section">
+                        <h2>Wet Food</h2>
+                        <div id="wet-food-container">
+                            <!-- Wet food forms will be added here dynamically -->
+                        </div>
+                        <button type="button" id="add-wet-food-btn" class="btn btn-small">
+                            <i class="fas fa-plus"></i> Add Wet Food
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="button-group">
+                    <button type="button" id="food-prev-btn" class="btn btn-secondary">Back</button>
+                    <button type="button" id="food-next-btn" class="btn">Calculate</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Step 4: Results -->
+        <div class="form-section" id="results-section">
+            <div class="card" id="results-card">
+                <div id="cat-details">
+                    <!-- Cat details will be populated here -->
+                </div>
+                <div id="results-content">
+                    <!-- Results will be populated here -->
+                </div>
+                
+                <div class="food-distribution-control">
+                    <h3>Adjust Food Distribution</h3>
+                    <div class="slider-container">
+                        <div class="slider-labels">
+                            <span>Wet</span>
+                            <span>Dry</span>
+                        </div>
+                        <input type="range" id="food-distribution-slider" min="0" max="100" value="50" class="slider">
+                        <div class="distribution-display">
+                            <p>Wet Food: <span id="wet-food-percentage">50</span>% | Dry Food: <span id="dry-food-percentage">50</span>%</p>
+                        </div>
+                        <button type="button" id="recalculate-btn" class="btn btn-small">
+                            <i class="fas fa-sync-alt"></i> Recalculate
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="button-group">
+                    <button type="button" id="results-prev-btn" class="btn btn-secondary">Back</button>
+                    <button type="button" id="print-btn" class="btn">
+                        <i class="fas fa-print"></i> Print
+                    </button>
+                    <button type="button" id="restart-btn" class="btn btn-secondary">
+                        <i class="fas fa-redo"></i> Start Over
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal -->
+    <div id="weight-status-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Cat Body Condition Score</h2>
+            <img src="images/chart.jpg" alt="Cat Body Condition Score Chart" class="modal-image">
+            <p class="modal-description">
+                Use this chart to help determine your cat's body condition. A score of 5 is ideal, while scores below 3 indicate underweight and scores above 7 indicate overweight.
+            </p>
+        </div>
+    </div>
+    
+    <!-- Templates for dynamic content -->
+    <template id="food-form-template">
+        <div class="food-form">
+            <div class="form-header">
+                <h3>Food #<span class="food-number"></span></h3>
+                <button type="button" class="remove-food-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="form-group">
+                <label for="food-selection">Select Food:</label>
+                <select class="food-selection">
+                    <option value="custom">Custom Food (Enter Details Below)</option>
+                    <!-- Options will be added dynamically based on food type -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="food-name">Food Name:</label>
+                <input type="text" class="food-name" required>
+            </div>
+            <div class="form-group">
+                <label>Nutritional Information (%):</label>
+                <div class="nutrition-grid">
+                    <div class="nutrition-item">
+                        <label for="liquid-percent">Liquid:</label>
+                        <input type="number" class="liquid-percent" min="0" max="100" step="0.1" required>
+                    </div>
+                    <div class="nutrition-item">
+                        <label for="protein-percent">Protein:</label>
+                        <input type="number" class="protein-percent" min="0" max="100" step="0.1" required>
+                    </div>
+                    <div class="nutrition-item">
+                        <label for="fat-percent">Fat:</label>
+                        <input type="number" class="fat-percent" min="0" max="100" step="0.1" required>
+                    </div>
+                    <div class="nutrition-item">
+                        <label for="fibre-percent">Fibre:</label>
+                        <input type="number" class="fibre-percent" min="0" max="100" step="0.1" required>
+                    </div>
+                    <div class="nutrition-item">
+                        <label for="ash-percent">Ash:</label>
+                        <input type="number" class="ash-percent" min="0" max="100" step="0.1" required>
+                    </div>
+                    <div class="nutrition-item">
+                        <label for="carb-percent">Carbs (NFE):</label>
+                        <input type="number" class="carb-percent" disabled>
+                    </div>
+                    <div class="nutrition-item">
+                        <label for="calories-per-gram">Calories (kcal/g):</label>
+                        <input type="number" class="calories-per-gram" disabled>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+    
+    <script src="script.js"></script>
+</body>
+</html> 
