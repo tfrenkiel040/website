@@ -258,15 +258,20 @@
                 </div>
             </div>
             <div class="form-group test-mode-section">
-                <div class="test-mode-header">
-                    <span class="test-mode-label">Test Mode: Quick Input Options</span>
-                    <i class="fas fa-flask test-mode-icon"></i>
-                </div>
-                <select class="food-selection">
-                    <option value="custom">Enter details manually (recommended)</option>
-                    <!-- Options will be added dynamically based on food type -->
-                </select>
-                <p class="test-mode-description">This dropdown contains sample foods for testing. For real use, please enter your cat's actual food details above.</p>
+                <details class="test-mode-details">
+                    <summary class="test-mode-header">
+                        <span class="test-mode-label">Test Mode</span>
+                        <i class="fas fa-flask test-mode-icon"></i>
+                        <span class="tooltip" title="Developer feature for quick testing of pre-defined foods">?</span>
+                    </summary>
+                    <div class="test-mode-content">
+                        <p class="test-mode-description">Quick input options for development testing. For real use, please enter your cat's actual food details above.</p>
+                        <select class="food-selection">
+                            <option value="custom">Enter details manually (recommended)</option>
+                            <!-- Options will be added dynamically based on food type -->
+                        </select>
+                    </div>
+                </details>
             </div>
         </div>
     </template>

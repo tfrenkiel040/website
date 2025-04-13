@@ -683,43 +683,85 @@ input:focus, select:focus {
 
 /* Test Mode Section */
 .test-mode-section {
-    margin-top: 20px;
-    padding: 12px;
-    background-color: #f5f5f5;
-    border-radius: 6px;
-    border-left: 3px dashed #ccc;
-    position: relative;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    border: 1px dashed #dee2e6;
+}
+
+.test-mode-details {
+    width: 100%;
 }
 
 .test-mode-header {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-style: italic;
+    color: #6c757d;
 }
 
 .test-mode-label {
-    font-size: 0.9em;
-    color: #666;
-    font-weight: 600;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-right: 5px;
 }
 
 .test-mode-icon {
-    margin-left: 8px;
-    color: #888;
-    font-size: 0.9em;
+    font-size: 0.8rem;
+    color: #adb5bd;
+    margin-right: 5px;
 }
 
-.test-mode-section select {
-    background-color: white;
-    border: 1px solid #ddd;
-    color: #555;
-    font-size: 0.9em;
+.test-mode-content {
+    padding: 8px 0;
 }
 
 .test-mode-description {
-    margin-top: 8px;
-    font-size: 0.8em;
-    color: #777;
+    font-size: 0.8rem;
+    color: #6c757d;
+    margin-bottom: 8px;
     font-style: italic;
-    line-height: 1.4;
+}
+
+.food-selection {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #e9ecef;
+    color: #6c757d;
+    font-size: 0.7rem;
+    font-weight: bold;
+    cursor: help;
+}
+
+.tooltip:hover::after {
+    content: attr(title);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    background-color: #343a40;
+    color: white;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    white-space: nowrap;
+    z-index: 1;
+    margin-bottom: 5px;
 } 
