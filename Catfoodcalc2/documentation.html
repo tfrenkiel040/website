@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Food Calculator Documentation</title>
+    <style>
+        :root {
+            --primary-color: #4a6fa5;
+            --secondary-color: #166088;
+            --accent-color: #f47b52;
+            --light-color: #f5f5f5;
+            --dark-color: #333;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark-color);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f5f9;
+        }
+        
+        .content {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: var(--secondary-color);
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        
+        h3 {
+            color: var(--accent-color);
+            margin-top: 20px;
+        }
+        
+        code {
+            background: #f5f5f5;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        
+        pre {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .example {
+            background: #f8f9fa;
+            border-left: 4px solid var(--accent-color);
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .note {
+            background: #fff3e0;
+            border-left: 4px solid #ff9800;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Cat Food Calculator Documentation</h1>
+
+        <h2>Features</h2>
+        <ul>
+            <li><strong>Cat Information Collection:</strong> Input your cat's name, neutering status, weight status, activity level, age category, and current weight.</li>
+            <li><strong>Food Information Management:</strong> Add multiple dry and wet food options with detailed nutritional breakdowns.</li>
+            <li><strong>Automatic Calculations:</strong>
+                <ul>
+                    <li>Calculates carbohydrate content (NFE) automatically based on other nutritional values.</li>
+                    <li>Determines daily caloric needs based on cat's characteristics.</li>
+                    <li>Recommends portion sizes for a balanced diet with adjustable wet/dry food distribution.</li>
+                </ul>
+            </li>
+            <li><strong>Customizable Food Distribution:</strong> Adjust the percentage of wet and dry food using an interactive slider.</li>
+            <li><strong>User-Friendly Interface:</strong> Step-by-step process with a progress indicator.</li>
+            <li><strong>Print Functionality:</strong> Print your feeding recommendations for easy reference.</li>
+        </ul>
+
+        <h2>Calorie Calculation</h2>
+        <p>The daily caloric needs are calculated based on a comprehensive formula that accounts for multiple factors:</p>
+
+        <h3>1. Base Calculation</h3>
+        <div class="example">
+            <p><strong>Intact cats:</strong></p>
+            <ul>
+                <li>Outdoor cat: 100 × (weight in kg)^0.67</li>
+                <li>Playful indoor cat: 90 × (weight in kg)^0.67</li>
+                <li>Couch potato: 85 × (weight in kg)^0.67</li>
+            </ul>
+            <p><strong>Neutered/Spayed cats:</strong></p>
+            <ul>
+                <li>Outdoor cat: 75 × (weight in kg)^0.67</li>
+                <li>Playful indoor cat: 62.5 × (weight in kg)^0.67</li>
+                <li>Couch potato: 52 × (weight in kg)^0.67</li>
+            </ul>
+        </div>
+
+        <h3>2. Age Adjustment</h3>
+        <ul>
+            <li>Young Adult (1-7 years): × 1.0 (no adjustment)</li>
+            <li>Mature Adult (7-12 years): × 0.95 (slightly reduced needs)</li>
+            <li>Senior (12+ years): × 1.05 (slightly increased needs)</li>
+        </ul>
+
+        <h3>3. Weight Status Adjustment</h3>
+        <ul>
+            <li>Overweight: × 0.9 (for weight loss)</li>
+            <li>Underweight: × 1.1 (for weight gain)</li>
+            <li>Ideal weight: × 1.0 (for maintenance)</li>
+        </ul>
+
+        <h2>Food Energy Calculation</h2>
+        <p>The caloric content (metabolizable energy) of each food is calculated in two steps:</p>
+
+        <h3>1. NFE (Nitrogen Free Extract) Calculation</h3>
+        <div class="example">
+            <p>NFE represents the carbohydrate content</p>
+            <p><strong>Formula:</strong> NFE% = 100% - (Moisture% + Protein% + Fat% + Fibre% + Ash%)</p>
+            <p><strong>Example:</strong> If a dry food has 10% moisture, 30% protein, 15% fat, 3% fibre, and 7% ash:</p>
+            <pre>NFE = 100 - (10 + 30 + 15 + 3 + 7) = 35%</pre>
+        </div>
+
+        <h3>2. Energy Density Calculation</h3>
+        <p>Using the Modified Atwater factors for pet foods:</p>
+        <ul>
+            <li>Protein: 3.5 kcal/g</li>
+            <li>Fat: 8.5 kcal/g</li>
+            <li>NFE (carbohydrates): 3.5 kcal/g</li>
+        </ul>
+
+        <div class="example">
+            <p><strong>Complete formula:</strong></p>
+            <pre>Energy (kcal/100g) = (Protein% × 3.5) + (Fat% × 8.5) + (NFE% × 3.5)</pre>
+            <p><strong>Example calculation</strong> for the dry food above:</p>
+            <ul>
+                <li>Protein contribution: 30% × 3.5 = 105 kcal</li>
+                <li>Fat contribution: 15% × 8.5 = 127.5 kcal</li>
+                <li>NFE contribution: 35% × 3.5 = 122.5 kcal</li>
+                <li>Total: 355 kcal/100g or 3.55 kcal/g</li>
+            </ul>
+        </div>
+
+        <h3>Why Modified Atwater Factors?</h3>
+        <ul>
+            <li>Standard Atwater factors (4/9/4) are based on human food digestibility</li>
+            <li>Modified factors (3.5/8.5/3.5) account for:
+                <ul>
+                    <li>Lower digestibility of pet foods</li>
+                    <li>Different processing methods</li>
+                    <li>Varying ingredient quality</li>
+                </ul>
+            </li>
+            <li>These factors are recommended by AAFCO and FEDIAF for pet food calculations</li>
+        </ul>
+
+        <div class="note">
+            <h3>Important Note</h3>
+            <p>This calculator is designed for adult cats only (12 months and older). For kittens, please consult with your veterinarian for appropriate feeding recommendations.</p>
+        </div>
+
+        <h2>Disclaimer</h2>
+        <p>This tool provides general recommendations and is not a substitute for professional veterinary advice. Always consult with your veterinarian for personalized feeding recommendations for your cat.</p>
+    </div>
+</body>
+</html> 
