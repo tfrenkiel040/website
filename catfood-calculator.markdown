@@ -5,7 +5,7 @@ permalink: /catfood-calculator/
 ---
 
 <div id="cat-food-calculator-wrapper" class="mw7 center ph3 f4 lh-copy">
-    <iframe src="/assets/catfoodcalc/index.html" style="width: 100%; height: 800px; border: none;"></iframe>
+    <iframe src="/assets/catfoodcalc/index.html" style="width: 100%; height: 100vh; border: none;" scrolling="no"></iframe>
 </div>
 
 <style>
@@ -30,14 +30,29 @@ permalink: /catfood-calculator/
         display: none !important;
     }
     
+    body, html {
+        overflow: hidden;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    main {
+        height: 100vh;
+        overflow: hidden;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
     #cat-food-calculator-wrapper {
         max-width: 100%;
         padding: 0;
-        margin-top: 0; /* Remove top margin since nav is gone */
+        margin: 0;
+        height: 100vh;
     }
     
     iframe {
-        min-height: 800px;
+        min-height: 100vh;
         width: 100%;
         border: none;
         overflow: hidden;
@@ -45,7 +60,7 @@ permalink: /catfood-calculator/
     
     @media (max-width: 768px) {
         iframe {
-            min-height: 1000px;
+            min-height: 100vh;
         }
     }
 </style> 
