@@ -797,4 +797,12 @@ input:focus, select:focus {
 
 .feedback-link i {
     font-size: 1rem;
+}
+
+.feedback-message {
+    text-align: center;
+    color: #666;
+    font-size: 0.85rem;
+    margin-top: 8px;
+    margin-bottom: 0;
 } 
