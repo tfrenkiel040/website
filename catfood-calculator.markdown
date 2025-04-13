@@ -4,8 +4,14 @@ title: "Cat Food Calculator"
 permalink: /catfood-calculator/
 ---
 
-<div id="cat-food-calculator-wrapper">
-    <iframe src="/assets/catfoodcalc/index.html" style="width: 100%; height: 100vh; border: none;"></iframe>
+<script>
+  // 301 redirect to the new calculator
+  window.location.replace("/catfood-calculator-v2/");
+</script>
+
+<div class="redirect-message" style="text-align: center; padding: 50px 20px;">
+  <h1>Redirecting to Cat Food Calculator v2</h1>
+  <p>The Cat Food Calculator has been updated. If you are not redirected automatically, <a href="/catfood-calculator-v2/">click here</a>.</p>
 </div>
 
 <style>

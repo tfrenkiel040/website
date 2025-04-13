@@ -2,6 +2,8 @@
 layout: default
 title: "Cat Food Calculator v2"
 permalink: /catfood-calculator-v2/
+redirect_from:
+  - /catfood-calculator/
 ---
 
 <div id="cat-food-calculator-wrapper">
