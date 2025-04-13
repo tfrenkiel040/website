@@ -4,8 +4,8 @@ title: "Cat Food Calculator v2"
 permalink: /catfood-calculator-v2/
 ---
 
-<div id="cat-food-calculator-wrapper" class="mw7 center ph3 f4 lh-copy">
-    <iframe src="/assets/catfoodcalc2/index.html" style="width: 100%; height: 100vh; border: none;" scrolling="no"></iframe>
+<div id="cat-food-calculator-wrapper">
+    <iframe src="/assets/catfoodcalc2/index.html" style="width: 100%; height: 100vh; border: none;"></iframe>
 </div>
 
 <style>
@@ -30,37 +30,46 @@ permalink: /catfood-calculator-v2/
         display: none !important;
     }
     
+    footer {
+        display: none !important;
+    }
+    
     body, html {
-        overflow: hidden;
         height: 100%;
         margin: 0;
         padding: 0;
+        overflow-x: hidden;
     }
     
     main {
-        height: 100vh;
-        overflow: hidden;
+        width: 100%;
+        max-width: 100%;
         padding: 0 !important;
-        margin: 0 !important;
+        margin: 0 auto !important;
+        display: flex;
+        justify-content: center;
     }
     
     #cat-food-calculator-wrapper {
-        max-width: 100%;
-        padding: 0;
-        margin: 0;
+        width: 100%;
+        max-width: 1000px;
         height: 100vh;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        justify-content: center;
     }
     
     iframe {
-        min-height: 100vh;
         width: 100%;
+        height: 100vh;
         border: none;
-        overflow: hidden;
+        margin: 0 auto;
     }
     
     @media (max-width: 768px) {
-        iframe {
-            min-height: 100vh;
+        #cat-food-calculator-wrapper {
+            width: 100%;
         }
     }
 </style> 
