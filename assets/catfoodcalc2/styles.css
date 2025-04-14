@@ -185,6 +185,10 @@ h3 {
 .start-btn {
     margin-top: 30px;
     margin-bottom: 30px;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    min-width: 180px;
 }
 
 /* Disclaimer Box */
@@ -218,10 +222,8 @@ h3 {
     margin-bottom: 0;
 }
 
-.disclaimer-box ul li {
-    margin-bottom: 10px;
-    line-height: 1.4;
-    font-size: 0.9em;
+.disclaimer-box ul li strong {
+    color: var(--accent-color);
 }
 
 .documentation-link {
@@ -297,6 +299,32 @@ input:focus, select:focus {
 
 .btn-secondary:hover {
     background-color: #5a6268;
+}
+
+.back-link {
+    text-align: center;
+    display: none; /* Hidden by default, shown on mobile */
+    margin-top: 15px;
+    padding-top: 10px;
+}
+
+.back-link a {
+    color: #6c757d;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.back-link a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.back-link i {
+    font-size: 0.8rem;
 }
 
 .btn-small {
@@ -583,8 +611,42 @@ input:focus, select:focus {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    body {
+        padding: 10px 5px;
+    }
+    
     .container {
-        padding: 10px;
+        padding: 5px;
+        width: 100%;
+    }
+    
+    .card-content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .disclaimer-box {
+        padding: 12px;
+        margin-left: -5px;
+        margin-right: -5px;
+        width: calc(100% + 10px);
+        border-radius: 3px;
+        margin-top: 20px;
+    }
+    
+    .disclaimer-box h3 {
+        font-size: 1rem;
+        margin-bottom: 8px;
+    }
+    
+    .disclaimer-box ul {
+        padding-left: 16px;
+    }
+    
+    .disclaimer-box li {
+        font-size: 0.85rem;
+        margin-bottom: 6px;
+        line-height: 1.35;
     }
     
     .nutrition-grid {
@@ -598,6 +660,42 @@ input:focus, select:focus {
     .btn {
         width: 100%;
         margin-bottom: 10px;
+    }
+    
+    .card {
+        padding: 18px;
+    }
+    
+    .start-btn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        max-width: 100%;
+        width: 100%;
+        font-size: 1rem;
+        padding: 12px 15px;
+    }
+    
+    .documentation-link {
+        margin-top: 15px;
+    }
+    
+    .documentation-link a {
+        font-size: 0.85rem;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        padding: 8px;
+        background-color: #f0f5f9;
+        border-radius: 4px;
+    }
+    
+    /* Hide back buttons on mobile and show back links instead */
+    .btn-back {
+        display: none !important;
+    }
+    
+    .back-link {
+        display: block;
     }
 }
 

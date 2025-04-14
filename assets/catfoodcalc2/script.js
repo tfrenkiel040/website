@@ -152,6 +152,20 @@ function setupEventListeners() {
     foodNextBtn.addEventListener('click', validateAndCalculateResults);
     resultsPrevBtn.addEventListener('click', () => goToStep(3));
     
+    // Back links (mobile alternative to back buttons)
+    document.getElementById('cat-prev-link').addEventListener('click', (e) => {
+        e.preventDefault();
+        goToStep(1);
+    });
+    document.getElementById('food-prev-link').addEventListener('click', (e) => {
+        e.preventDefault();
+        goToStep(2);
+    });
+    document.getElementById('results-prev-link').addEventListener('click', (e) => {
+        e.preventDefault();
+        goToStep(3);
+    });
+    
     // Food form buttons
     addDryFoodBtn.addEventListener('click', addDryFood);
     addWetFoodBtn.addEventListener('click', addWetFood);
