@@ -309,13 +309,23 @@ function validateAndCalculateResults() {
 
 // Data Management Functions
 function saveCatData() {
+    let weight = parseFloat(document.getElementById('cat-weight').value);
+    const unit = document.getElementById('weight-unit').value;
+    
+    // Convert pounds to kilograms if needed
+    if (unit === 'lb') {
+        weight = weight / 2.20462; // convert to kg
+    }
+    
+    weight = Math.round(weight * 100) / 100; // round to 2 decimals
+    
     catData = {
         name: document.getElementById('cat-name').value,
         neuteringStatus: document.getElementById('neutering-status').value,
         weightStatus: document.getElementById('weight-status').value,
         activityLevel: document.getElementById('activity-level').value,
         ageCategory: document.getElementById('cat-age').value,
-        weight: parseFloat(document.getElementById('cat-weight').value)
+        weight: weight
     };
 }
 
@@ -812,7 +822,7 @@ function displayResults(results) {
     catDetails.innerHTML = `
         <h2 class="cat-name-header">${catData.name}'s Feeding Plan</h2>
         <div class="cat-info-summary">
-            <p>Weight: ${catData.weight} kg | Age: ${ageCategoryText}</p>
+            <p>Weight: ${catData.weight} kg (${(catData.weight * 2.20462).toFixed(1)} lb) | Age: ${ageCategoryText}</p>
             <p>Activity Level: ${activityLevelText} | Weight Status: ${catData.weightStatus}</p>
             <p>Neutered: ${catData.neuteringStatus === 'neutered' ? 'Yes' : 'No'}</p>
         </div>

@@ -903,4 +903,16 @@ input:focus, select:focus {
     font-size: 0.85rem;
     margin-top: 8px;
     margin-bottom: 0;
+}
+
+/* Weight Input Styles */
+.weight-input-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#weight-unit {
+    width: auto;
+    padding: 8px;
 } 
