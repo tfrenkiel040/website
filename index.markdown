@@ -15,7 +15,7 @@ list_title: Recent posts  # Custom title for the blog posts section
 <p>This website will be a work in progress, and blog posts will be irregular.</p> 
     </div>
     <div class="fl w-30 pa2">
-        <img src="{{ '/assets/images/thomas_frenkiel.jpg' | relative_url }}" alt="Thomas Frenkiel" class="w-100 db center">
+        <img src="{{ '/assets/images/2024pf.jpg' | relative_url }}" alt="Thomas Frenkiel" class="w-100 db center">
     </div>
 </div>
 
