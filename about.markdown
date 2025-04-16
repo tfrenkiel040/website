@@ -4,8 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<div class="cf"> <!-- cf is used to contain floats -->
-    <div class="fl w-60 pa2">
+<div class="mw7 center ph3 f4 lh-copy">
 <h2> Marketer & SEO Strategist at Funnel</h2>
         
 
@@ -19,10 +18,6 @@ permalink: /about/
 
 <p>Curious to learn more about my work or interested in collaborating? Let's connect! Check out my <a href="https://www.linkedin.com/in/thomasfrenkiel/">LinkedIn</a> and send me a message there.</p>
 
-</div>
-<div class="fl w-40 pa2">
-        <img src="{{ '/assets/images/2024pf.jpg' | relative_url }}" alt="Thomas Frenkiel" class="w-100 db center">
-    </div>
 </div>
 
 
