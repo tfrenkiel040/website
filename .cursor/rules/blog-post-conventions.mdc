@@ -1,0 +1,130 @@
+---
+description: Guidelines for creating and editing blog posts for the website, including formatting, style, and naming conventions.
+globs: 
+alwaysApply: false
+---
+---
+title: Blog Post Conventions
+description: Guidelines for creating and editing blog posts for the website, including formatting, style, and naming conventions.
+glob: "_posts/**/*.{md,markdown}"
+alwaysApply: false
+---
+
+# Blog Post Conventions
+
+## Introduction
+
+This rule defines the standard format and style for blog posts on this website. Following these guidelines ensures consistency across all posts and makes content easier to read and maintain.
+
+## File Structure and Naming
+
+- Blog posts should be stored in the `_posts` directory
+- Filenames must follow the pattern: `YYYY-MM-DD-title-with-hyphens.md`
+- Example: `2025-04-17-cat-food-calculator.md`
+- Always include the correct publish date in the filename
+- If you're unsure of today's date, ask before creating a new post
+
+## Frontmatter Requirements
+
+Every blog post must begin with the following frontmatter:
+
+```markdown
+---
+layout: post
+title: "Title of the post in sentence case"
+date: YYYY-MM-DD
+categories: [Primary Category, Optional Secondary]
+---
+```
+
+- The `layout` should always be set to `post`
+- The `title` should use sentence case (capitalize first word only, and proper nouns only)
+- The `date` should match the date in the filename
+- Include at least one relevant category. Use no more than two categories
+
+## Content Formatting
+
+### Headings
+
+- The title in the frontmatter will automatically render as an H1 heading
+- **Do not** add an additional H1 heading at the beginning of the post content
+- Use H2 (`##`) for main sections of your post
+- Use H3 (`###`) for subsections when needed
+- Maintain a logical heading hierarchy (don't skip levels)
+
+### Paragraphs and Emphasis
+
+- Keep paragraphs relatively short for better readability
+- **Limit the use of bold/strong emphasis**
+  - Use bold/strong (`**text**`) for only 1-2 key points per post
+  - Do not use bold in every paragraph
+  - Reserve bold for truly important information
+
+### Lists
+
+- Use unordered lists (bullet points) for items without specific sequence
+- Use ordered lists (numbers) for sequential steps or ranked items
+- Keep list items concise and parallel in structure
+
+### Links
+
+- Use standard Markdown link format: `[Link text](mdc:URL)`
+- For internal links, use relative paths: `[Link text](mdc:path/to/page)`
+- Example: `[Cat Food Calculator](mdc:catfood-calculator-v2)`
+- For external links, add attributes to open in a new tab: `[Link text](https://example.com){:target="_blank" rel="noopener noreferrer"}`
+  - This ensures external links don't navigate users away from your site
+  - The `rel` attribute improves security and privacy
+
+### Images
+
+- Images should be stored in the `/assets/images/` directory
+- Use standard Markdown image syntax with alt text: `![Alt text](mdc:assets/images/image.jpg)`
+- Consider adding a caption for complex images
+
+## Content Style
+
+- Write in a clear, conversational tone
+- Use sentence case for all headings (not title case)
+- Keep sentences and paragraphs concise
+- When discussing complext topics, use example to make it easier for readers to understand
+- Use contractions where appropriate to maintain a friendly tone
+- Include a brief introduction that summarizes what the post is about
+
+## Examples
+
+Here's an example of a well-structured blog post:
+
+```markdown
+---
+layout: post
+title: "How I built a cat food calculator"
+date: 2025-04-17
+categories: [Projects]
+---
+
+A few weeks ago, I launched a web app that calculates how much food your adult cat needs per day. It's based on scientifically accepted nutrition formulas, and helps owners get accurate feeding recommendations.
+
+## What it does
+
+The calculator helps cat owners determine:
+
+- Daily caloric needs based on weight and activity level
+- Recommended portion sizes for different food types
+- Adjustments for special conditions
+
+## How I built it
+
+I used a combination of vanilla JavaScript and Jekyll for hosting. The most challenging part was developing the formula to account for both wet and dry food combinations.
+
+## What's next
+
+I plan to add a food database and potentially create a mobile app version in the future.
+```
+
+## Common Pitfalls
+
+- Adding an H1 heading at the beginning of the post (redundant with the title)
+- Overusing bold/strong emphasis throughout the post
+- Using title case instead of sentence case for post titles
+- Including the wrong date in the frontmatter or filename
+- Writing overly long paragraphs without breaks
