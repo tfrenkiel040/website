@@ -12,7 +12,6 @@ And it's not easy for owners to know how much food to give. Cat food brands ofte
 
 So I built the [Cat Food Calculator](/catfood-calculator-v2/).
 
----
 
 ## What it does
 
@@ -32,7 +31,6 @@ It’s all based on FEDIAF nutritional guidelines and standard pet nutrition for
 
 👉 Try it here: [thomasfrenkiel.com/catfood-calculator-v2](/catfood-calculator-v2/)
 
----
 
 ## How I built it
 
@@ -40,7 +38,6 @@ I built the app using Cursor and ChatGPT — two tools that made the development
 
 One challenge was making the tool flexible enough to handle both wet and dry food inputs, with customizable wet/dry ratios. Another was internationalization — users in the US often think in pounds, not kilograms — so I added a unit toggle.
 
----
 
 ## What I learned
 
@@ -48,7 +45,6 @@ One challenge was making the tool flexible enough to handle both wet and dry foo
 - How powerful it is to ship early and collect feedback — even just doing one user interview was incredibly valuable.
 - That integrating a custom-built tool into my personal website is easier than I thought.
 
----
 
 ## What's next
 
@@ -61,6 +57,5 @@ Other things I'd like to add or improve:
 - A native **Android/iOS app version**
 - Make it easier for users to retrieve the **analytical details** of their cat food, maybe using AI or scraping food databases
 
----
 
 If you’re a cat owner (or just curious), I’d love for you to give the calculator a try and let me know what you think! 😺
