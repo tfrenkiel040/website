@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "How I built a cat food calculator (and why)"
+title: "Side project: cat food calculator"
 date: 2025-04-17
 categories: [Projects]
 ---
 
-A few weeks ago, I launched a web app that calculates how much food your adult cat needs per day. It's based on scientifically accepted nutrition formulas, and helps owners get accurate feeding recommendations — especially when they combine wet and dry food.
+I made a web app that calculates how much food your adult cat needs per day. It's based on scientifically accepted nutrition formulas, and helps owners get accurate feeding recommendations — especially when they combine wet and dry food.
 
 I'm not a vet or a nutritionist. I'm just a cat person who knows that it's important for cats to not become overweight. My own cat Otis has a tendency to eat too much too. But it's not easy for people to understand how much food to give their cat.
 
@@ -38,7 +38,7 @@ One challenge was making the tool flexible enough to handle both wet and dry foo
 
 ## What I Learned
 
-- A lot more about feline nutrition than I expected. Turns out I could feed Otis a bit more then I was doing:) 
+- A lot more about feline nutrition than I expected. (Turns out I could feed Otis a bit more then I was doing) 
 - How powerful it is to ship early and collect feedback. Even just doing 1 user interview was super valuable
 - That it's pretty easy to integrate a tool like that into my website.
 
