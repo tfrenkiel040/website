@@ -14,7 +14,7 @@ So I built the [Cat Food Calculator](/catfood-calculator-v2/).
 
 ---
 
-## What It Does
+## What it does
 
 Users input:
 
@@ -34,7 +34,7 @@ It’s all based on FEDIAF nutritional guidelines and standard pet nutrition for
 
 ---
 
-## How I Built It
+## How I built it
 
 I built the app using Cursor and ChatGPT — two tools that made the development process much faster and more enjoyable.
 
@@ -42,7 +42,7 @@ One challenge was making the tool flexible enough to handle both wet and dry foo
 
 ---
 
-## What I Learned
+## What I learned
 
 - A lot more about feline nutrition than I expected (and it turns out I could feed Otis a bit more than I was doing).
 - How powerful it is to ship early and collect feedback — even just doing one user interview was incredibly valuable.
@@ -50,7 +50,7 @@ One challenge was making the tool flexible enough to handle both wet and dry foo
 
 ---
 
-## What's Next
+## What's next
 
 Right now the tool is still in beta, but I’m actively improving it. I've posted it in a few Reddit communities, collected some early feedback, and cleaned up the mobile experience.
 
