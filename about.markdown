@@ -8,11 +8,11 @@ permalink: /about/
 <h2> Growth PM at Funnel</h2>
         
 
-<p>I'm Thomas, based in Stockholm, Sweden, specializing in SEO, web product management, and B2B marketing. At Funnel, my role intersects these areas as I focus on enhancing our online presence and driving growth.</p>
+<p>I'm Thomas, based in Stockholm, Sweden, specializing in SEO, web product management, and B2B marketing. At Funnel, my role brings these areas together as I focus on enhancing our online presence and driving customer acquisition.</p>
 
-<p>My career started at smaller agencies in the Netherlands, after which I worked at Havas Media and Orangedotcom in Amsterdam. I led the SEO team at Orangedotcom when we were acquired by iO. During my time agency-side, I developed and executed impactful SEO strategies for a diverse range of clients.</p>
+<p>My career began at smaller agencies in the Netherlands, before moving on to Havas Media and Orangedotcom in Amsterdam. I led the SEO team at Orangedotcom when we were acquired by iO. During my agency years, I developed and executed SEO strategies for a wide range of clients.</p>
 
-<p>I am passionate about mentoring and empowering others, and I strive to lead by example in fostering an inclusive and innovative workplace. I believe that sharing knowledge and working together can lead to extraordinary results.</p>
+<p>I'm passionate about mentoring and empowering others, and I strive to lead by example in creating an inclusive, curious, and innovative work environment. I believe that sharing knowledge and working together leads to better outcomes—for teams and for users.</p>
 
 <p>Curious to learn more about my work or interested in collaborating? Let's connect! Check out my <a href="https://www.linkedin.com/in/thomasfrenkiel/">LinkedIn</a> and send me a message there.</p>
 
