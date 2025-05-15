@@ -16,7 +16,7 @@ permalink: /about/
 
 <p>Curious to learn more about my work or interested in collaborating? Let's connect! Check out my <a href="https://www.linkedin.com/in/thomasfrenkiel/">LinkedIn</a> and send me a message there.</p>
 
-<h2 class="mt5">Continuous Learning</h2>
+<h2 class="mt5">Continuous learning</h2>
 
 <p>I believe in continuous learning and development. Here are some of the courses I've completed or am currently taking:</p>
 
@@ -27,7 +27,7 @@ permalink: /about/
       <div class="pa3 br3 shadow-4" style="background-color: #ee964b; color: white;">
         <h3 class="f4 mb1">Growth Strategy</h3>
         <p class="f5 mb0">Reforge</p>
-        <p class="f6 o-70">2025 (Current)</p>
+        <p class="f6 o-70">2025</p>
       </div>
     </div>
     

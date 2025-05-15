@@ -46,6 +46,14 @@ body {
     margin: 0;
 }
 
+.beta-tag {
+    display: inline-block;
+    color: var(--accent-color);
+    font-size: 0.8em;
+    vertical-align: middle;
+    font-weight: normal;
+}
+
 h1 {
     text-align: center;
     color: var(--primary-color);
