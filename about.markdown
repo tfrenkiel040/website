@@ -12,7 +12,7 @@ permalink: /about/
 
 <p>My career began at smaller agencies in the Netherlands, before moving on to Havas Media and Orangedotcom in Amsterdam. I led the SEO team at Orangedotcom when we were acquired by iO. During my agency years, I developed and executed SEO strategies for a wide range of clients.</p>
 
-<p>I'm passionate about mentoring and empowering others, and I strive to lead by example in creating an inclusive, curious, and innovative work environment. I believe that sharing knowledge and working together leads to better outcomes—for teams and for users.</p>
+<p>I try to lead by example, create a space where people can do their best work, and share what I’ve learned along the way. Great work happens when people work together, ask questions, and keep learning.</p>
 
 <p>Curious to learn more about my work or interested in collaborating? Let's connect! Check out my <a href="https://www.linkedin.com/in/thomasfrenkiel/">LinkedIn</a> and send me a message there.</p>
 
