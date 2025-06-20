@@ -17,9 +17,9 @@ We also regularly organize knowledge sharing sessions. While these are typically
 
 ## From blue links to answers
 
-Search has always been about one thing: helping people find the best answer. But for years, that meant ten blue links. Google would tell you where you can find the answer you were looking for, rather than just giving you the answer. Now, increasingly, it means no links at all.
+Search has always been about one thing: helping people find the best answer. And for years, that meant ten blue links. Google would tell you where you can find the answer you were looking for, rather than just giving you the answer. Now, increasingly, it means no links at all.
 
-AI-powered features like Google's AI Overviews (previously SGE), AI Mode, and search in ChatGPT are moving us into an era where answers are synthesized directly in the search interface. The result is a massive rise in zero-click searches. People get what they need without visiting a website.
+AI-powered features like Google's AI Overviews, AI Mode, and search in ChatGPT are moving us into an era where answers are synthesized directly in the search interface. The result is a massive rise in zero-click searches. People get what they need without having to visit a website.
 
 This isn’t completely new though. Google already had an increasing number of queries for which they simply showed the answer, like "How old is Barack Obama", or "Movies with Gary Oldman". 
 And the idea of keeping users on your own platform, rather then letting them go to anther website isnt new either. Other platforms have done this for years. Facebook deprioritized external links around 2015, and LinkedIn posts with external links tend to get less reach. 
@@ -28,37 +28,27 @@ Even OpenAI is now doing the same. Their Shopify integration lets you browse and
 
 ## Google's dilemma
 
-There is one difference though. For Google, clicks (on ads) mean revenue. But as more and more people get used to a chat-like experience instead of traditional search experience, this may also mean less clicks on ads. 
+There is one difference though, between those platforms and Google. For Google, clicks (on ads) mean revenue. But as more and more people get used to a chat-like experience instead of traditional search experience, this may also mean less clicks on ads. So, Google seemingly has to choose between:
+A. Creating a new user experience in search, where the answer is visible without clicks
+B. Keep search as it has always been, with the risk of using users to ChatGPT and other chat-like exeriences.
 
-AI Overviews are already live. AI Mode is rolling out. In this mode, the regular search results disappear. They’re replaced by a fully AI-generated answer.
+Now of course, Google wouldn't roll out AI Overviews if it would massivily hurt their ad business. But it will be interesting to see how they approach this dilemma. 
 
-What’s happening under the hood is called “Query Fan-Out.” Google fires off dozens or even hundreds of background searches to synthesize the best answer.
+## How AI Search works 
 
-This raises a lot of questions. What happens to SEO? What happens to paid search? What if an AI agent sees your ad — but doesn’t click?
+In Google's AI Mode, regular search results are replaced by a fully AI-generated answer. But this answer is not the result of one search. What’s happening under the hood is something called “Query Fan-Out.” Based in the user input (prompt), Google fires off dozens of searches to synthesize the best answer. 
 
-## Not all search is equal
-
-Different types of search will be impacted differently:
-
-- **Informational** (“How does marketing mix modeling work?”)  
-  Rapidly shifting to AI answers.
-- **Navigational** (“Spotify login”)  
-  Likely stays in traditional search.
-- **Transactional/Local** (“Toyota garage near me”)  
-  Still well-served by maps and Google’s infra.
-- **Commercial Research** (“Best marketing analytics tools for agencies”)  
-  In flux — tools like ChatGPT are gaining traction.
-
-The biggest shifts are happening where nuance and synthesis matter. That’s where AI shines.
+Chunks are another interesting aspect of AI-Search. Basically, instead of surfacing entire documents (HTML files), Google uses smaller 'chunks', of information to generate their answer. In theory, this could mean we should start optimizing every single section (or chunk) of each webpage for SEO, instead of optimizing complete documents. 
 
 ## What might happen next?
 
-We don’t have all the answers. But there are big questions to explore:
+We don’t have all the answers. And I would be weary of anyone claiming to know how AI-SEO exacylu works, or who claims to know how the future will unfold. 
 
+What we can do thought, is asking the right questions. Here are some I am asking:
 - What happens to keyword data in Google Search Console when AI does the searching?
 - How should content be structured for retrieval-augmented generation?
 - How do we measure visibility when answers don’t link back to us?
-- Should we track branded mentions and citations more closely?
+- What happens to Google's advertising business when people don't want to click anymore?
 
 One thing is clear: the definition of “search visibility” is changing.
 
