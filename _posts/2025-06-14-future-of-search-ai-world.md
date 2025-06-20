@@ -36,7 +36,7 @@ What’s happening under the hood is called “Query Fan-Out.” Google fires of
 
 This raises a lot of questions. What happens to SEO? What happens to paid search? What if an AI agent sees your ad — but doesn’t click?
 
-## Not All Search is Equal
+## Not all search is equal
 
 Different types of search will be impacted differently:
 
@@ -51,7 +51,7 @@ Different types of search will be impacted differently:
 
 The biggest shifts are happening where nuance and synthesis matter. That’s where AI shines.
 
-## What Might Happen Next?
+## What might happen next?
 
 We don’t have all the answers. But there are big questions to explore:
 
@@ -62,12 +62,12 @@ We don’t have all the answers. But there are big questions to explore:
 
 One thing is clear: the definition of “search visibility” is changing.
 
-## Sources & Further Reading
+## Sources and further reading
 
 These resources helped inform this presentation and post:
 
-- [Marie Haynes on AI Mode and Query Fan-Out](https://www.mariehaynes.com/ai-mode-query-fan-out/)
-- [Search Engine Land: How AI Mode and AI Overviews work based on patents](https://searchengineland.com/how-ai-mode-ai-overviews-work-patents-456346)
-- [Explaining AI SEO to Your C-Suite](https://duaneforresterdecodes.substack.com/p/explaining-ai-search-to-your-execs)
+- [Marie Haynes on AI Mode and Query Fan-Out](https://www.mariehaynes.com/ai-mode-query-fan-out/){:target="_blank" rel="noopener noreferrer"}
+- [Search Engine Land: How AI Mode and AI Overviews work based on patents](https://searchengineland.com/how-ai-mode-ai-overviews-work-patents-456346){:target="_blank" rel="noopener noreferrer"}
+- [Explaining AI SEO to Your C-Suite](https://duaneforresterdecodes.substack.com/p/explaining-ai-search-to-your-execs){:target="_blank" rel="noopener noreferrer"}
 
 Let me know what you think. And if you're also exploring this space, I'd love to hear from you.
