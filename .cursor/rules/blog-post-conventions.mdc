@@ -38,9 +38,9 @@ categories: [Primary Category, Optional Secondary]
 ```
 
 - The `layout` should always be set to `post`
-- The `title` should use sentence case (capitalize first word only, and proper nouns only)
+- The `title` should use sentence case (capitalize first word and proper nouns only)
 - The `date` should match the date in the filename
-- Include at least one relevant category. Use no more than two categories
+- Include at least one relevant category
 
 ## Content Formatting
 
@@ -68,17 +68,18 @@ categories: [Primary Category, Optional Secondary]
 
 ### Links
 
-- Use standard Markdown link format: `[Link text](mdc:URL)`
-- For internal links, use relative paths: `[Link text](mdc:path/to/page)`
-- Example: `[Cat Food Calculator](mdc:catfood-calculator-v2)`
+- Use standard Markdown link format: `[Link text](URL)`
+- For internal links, use relative paths: `[Link text](/path/to/page/)`
+  - Example: `[Cat Food Calculator](/catfood-calculator-v2/)`
 - For external links, add attributes to open in a new tab: `[Link text](https://example.com){:target="_blank" rel="noopener noreferrer"}`
   - This ensures external links don't navigate users away from your site
   - The `rel` attribute improves security and privacy
+- Always use descriptive link text that indicates where the link leads
 
 ### Images
 
 - Images should be stored in the `/assets/images/` directory
-- Use standard Markdown image syntax with alt text: `![Alt text](mdc:assets/images/image.jpg)`
+- Use standard Markdown image syntax with alt text: `![Alt text](/assets/images/image.jpg)`
 - Consider adding a caption for complex images
 
 ## Content Style
@@ -86,9 +87,9 @@ categories: [Primary Category, Optional Secondary]
 - Write in a clear, conversational tone
 - Use sentence case for all headings (not title case)
 - Keep sentences and paragraphs concise
-- When discussing complext topics, use example to make it easier for readers to understand
 - Use contractions where appropriate to maintain a friendly tone
 - Include a brief introduction that summarizes what the post is about
+- End with a clear conclusion or call to action
 
 ## Examples
 
