@@ -7,13 +7,13 @@ categories: [AI]
 
 Here's the problem with AI agents: accountability.
 
-AI Agents companies are popping up like mushrooms. It seems to be the next step in AI development. 
+AI agent companies are popping up like mushrooms. It seems to be the next step in AI development. 
 
 At the same time, there is ongoing debate. What is the difference between an AI agent and regular software? I think the difference is agency. An AI agent can decide things, not just follow simple if-else logic. 
 
-And yet, I still haven't seen any good examples of AI agents that are actually useful and being used. 
+And yet, I still haven't seen compelling examples of AI agents that are genuinely useful in practice.
 
-And I'm not a skeptic per se, I use AI with great pleasure. For example, I recently used ChatGPT deep research again, and that worked super well. But I am still the one who writes the prompt, and I decide what happens to the output of such a prompt. 
+I'm not a skeptic per se; I use AI with great pleasure. For example, I recently used ChatGPT deep research again, and that worked really well. But I am still the one who writes the prompt, and I decide what happens to the output of such a prompt. 
 
 I think the problem is that those AI agents have agency but no accountability. If something goes wrong, who can you hold accountable?
 

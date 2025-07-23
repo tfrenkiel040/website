@@ -5,11 +5,7 @@ date: 2025-06-14
 categories: [AI, Marketing]
 ---
 
-At Funnel, we're actively exploring AI in two key areas: 
-1. Using AI to improve our daily work; 
-2. Integrating AI capabilities into our product. 
-
-We also regularly organize knowledge sharing sessions. While these are typically led by our AI Product Director, I recently had the opportunity to present about the implications of AI and LLMs for search. Below, you'll find both the slides from that presentation and a text version of what I covered. Feel free to either go through the slides or read the full article below.
+I've been thinking a lot about search lately. Specifically, how AI is fundamentally changing the relationship between search engines, websites, and users. When I had the chance to present on this topic at a recent Funnel knowledge sharing session, it became clear just how significant this shift really is. Below are the insights from that presentation, available both as slides and in article format.
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
 <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://docs.google.com/presentation/d/1Sz9zS69CQ4cfKDEqd57SNNWjhceTZtb3YOCjQ7meSrQ/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -17,12 +13,12 @@ We also regularly organize knowledge sharing sessions. While these are typically
 
 ## From blue links to answers
 
-Search has always been about one thing: helping people find the best answer. And for years, that meant ten blue links. Google would tell you where you can find the answer you were looking for, rather than just giving you the answer. Now, increasingly, it means no links at all.
+Search has always been about one thing: helping people find the best answer. And for years, that meant ten blue links. Google would tell you where you could find the answer you were looking for, rather than giving you the answer directly. Now, increasingly, it means no links at all.
 
 AI-powered features like Google's AI Overviews, AI Mode, and search in ChatGPT are moving us into an era where answers are synthesized directly in the search interface. The result is a massive rise in zero-click searches. People get what they need without having to visit a website.
 
-This isn’t completely new though. Google already had an increasing number of queries for which they simply showed the answer, like "How old is Barack Obama", or "Movies with Gary Oldman". 
-And the idea of keeping users on your own platform, rather then letting them go to anther website isnt new either. Other platforms have done this for years. Facebook deprioritized external links around 2015, and LinkedIn posts with external links tend to get less reach. 
+This isn’t completely new, though. Google already had an increasing number of queries for which they simply showed the answer, like "How old is Barack Obama", or "Movies with Gary Oldman". 
+And the idea of keeping users on your own platform, rather then letting them go to anther website, isnt new either. Other platforms have done this for years. Facebook deprioritized external links around 2015, and LinkedIn posts with external links tend to get less reach. 
 
 Even OpenAI is now doing the same. Their Shopify integration lets you browse and buy products without ever leaving ChatGPT. 
 

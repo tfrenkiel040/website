@@ -9,7 +9,7 @@ This is a great opinion piece by Mats Georgson, Ph.D. on Marketing Week: [https:
 
 There's a whole generation of marketers, and I'm one of them, raised as "digital marketers."
 
-The first problem is the one Mark Ritson has pointed out many times: it's not smart to have a separate department for "digital." This creates silos that only confuse consumers, who don't think in terms of digital vs traditional.
+The first problem with this is something Mark Ritson has pointed out many times: it's not smart to have a separate department for "digital." This creates silos. And communications coming out of those silos will only confuse consumers, who don't think in terms of digital vs traditional. When your brand messaging differs between your Instagram ads and your TV commercials, you will have a harder time building relevant memory structures in consumers' minds.
 
 The second problem is what Mats highlights in the article. Many of us don't fully understand the scope of marketing. Sure, we're experts in SEO, social, content, or email. But that's all Promotion. What about the other P's?
 
