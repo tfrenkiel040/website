@@ -41,6 +41,8 @@ I wondered, is this something remote workers experience too? Because when you wo
 
 Han writes that rituals are to time what a home is to space. They're not just arbitrary habits — they structure time, create thresholds and transitions, tell you where you are (in time). The five-day work week creates a rhythm: Monday is beginning, Wednesday is midpoint, Friday is release, weekend is freedom.
 
+![Excerpt from The Disappearance of Rituals](/assets/images/han.png)
+
 Without that structure, time becomes amorphous. The days blur together. I was experiencing what Han might call "the crisis of time" — when time loses its articulation, its shape.
 
 But is the work week actually a ritual in Han's sense? Or is it just capitalist time discipline? Han distinguishes between rituals — symbolic repetitions that create meaning and community — and routines, which are empty repetitions in service of productivity. The work week is more routine than ritual. It structures time, yes, but toward production, not meaning.
