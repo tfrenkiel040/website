@@ -55,3 +55,5 @@ This week I went back to the office. My wife is home with the little one now, an
 
 I don't know if and when I will be off work for so long again. I like to work. I enjoy it. I want to tackle hard problems. But this period of paternity leave was great, and I am grateful for the Swedish system, with its generous parental leave.
 
+![Me and my daughter during paternity leave](/assets/images/me.jpeg)
+
