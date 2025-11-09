@@ -37,8 +37,6 @@ The first time I did this felt really great. It actually felt like freedom, free
 
 One unexpected effect of being home for so long is that weekends have lost some of their meaning. When I was going to the office five days a week, weekends were important. When I was home all week with my daughter, Saturday and Sunday felt the same as Tuesday. 
 
-I wondered, is this something remote workers experience too? Because when you work from home five days a week, what does the weekend even mean? You're still in the same space.
-
 Han writes that rituals are to time what a home is to space. They're not just arbitrary habits — they structure time, create thresholds and transitions, tell you where you are (in time). The five-day work week creates a rhythm: Monday is beginning, Wednesday is midpoint, Friday is release, weekend is freedom.
 
 ![Excerpt from The Disappearance of Rituals](/assets/images/han.png)
