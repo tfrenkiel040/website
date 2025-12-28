@@ -721,18 +721,27 @@ description: A simple, calming breathing exercise tool to help you relax and foc
     let phaseIndex = 0;
     const phases = [];
     
-    // Build phases array (skip phases with 0 duration)
+    // Build phases array
+    // When hold is 0, add a brief 0.5s transition for smoothness (with ellipsis text)
+    const TRANSITION_DURATION = 0.5;
+    
     if (settings.inhale > 0) {
       phases.push({ name: 'inhale', duration: settings.inhale, text: 'Breathe In' });
     }
     if (settings.holdIn > 0) {
       phases.push({ name: 'hold-in', duration: settings.holdIn, text: 'Hold' });
+    } else if (settings.inhale > 0 && settings.exhale > 0) {
+      // Add smooth transition between inhale and exhale
+      phases.push({ name: 'hold-in', duration: TRANSITION_DURATION, text: '···' });
     }
     if (settings.exhale > 0) {
       phases.push({ name: 'exhale', duration: settings.exhale, text: 'Breathe Out' });
     }
     if (settings.holdOut > 0) {
       phases.push({ name: 'hold-out', duration: settings.holdOut, text: 'Hold' });
+    } else if (settings.exhale > 0 && settings.inhale > 0) {
+      // Add smooth transition between exhale and next inhale
+      phases.push({ name: 'hold-out', duration: TRANSITION_DURATION, text: '···' });
     }
     
     function runPhase() {
