@@ -290,11 +290,13 @@ description: A simple, calming breathing exercise tool to help you relax and foc
   }
 
   .inner-circle.hold-full {
-    transform: scale(1);
+    transform: scale(1) !important;
+    animation: none !important;
   }
 
   .inner-circle.hold-empty {
-    transform: scale(0.15);
+    transform: scale(0.15) !important;
+    animation: none !important;
   }
 
   /* Center Text Overlay */
@@ -756,14 +758,14 @@ description: A simple, calming breathing exercise tool to help you relax and foc
       elements.breathingCircle.className = 'inner-circle';
       elements.breathingCircle.style.animation = '';
       
+      // Force reflow before applying any class
+      elements.breathingCircle.offsetHeight;
+      
       if (phase.name === 'inhale') {
         elements.breathingCircle.style.setProperty('--breath-duration', phase.duration + 's');
-        // Force reflow
-        elements.breathingCircle.offsetHeight;
         elements.breathingCircle.classList.add('inhale');
       } else if (phase.name === 'exhale') {
         elements.breathingCircle.style.setProperty('--breath-duration', phase.duration + 's');
-        elements.breathingCircle.offsetHeight;
         elements.breathingCircle.classList.add('exhale');
       } else if (phase.name === 'hold-in') {
         elements.breathingCircle.classList.add('hold-full');
