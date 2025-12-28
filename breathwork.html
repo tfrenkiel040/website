@@ -1,0 +1,851 @@
+---
+layout: default
+title: Breathwork
+permalink: /breathwork/
+description: A simple, calming breathing exercise tool to help you relax and focus.
+---
+
+<style>
+  /* Breathwork Tool Styles */
+  .breathwork-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    text-align: center;
+    animation: fadeInPage 0.6s ease-out;
+  }
+
+  @keyframes fadeInPage {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .breathwork-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+  }
+
+  .breathwork-subtitle {
+    font-size: 1rem;
+    color: #718096;
+    margin-bottom: 2rem;
+  }
+
+  /* Input Controls */
+  .controls-section {
+    background: linear-gradient(135deg, #f0f7f0 0%, #e8f4f8 100%);
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .controls-section.hidden {
+    opacity: 0;
+    transform: scale(0.95);
+    pointer-events: none;
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .inputs-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 70px;
+  }
+
+  .input-group label {
+    font-size: 0.75rem;
+    color: #4a5568;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .input-group input[type="number"] {
+    width: 60px;
+    height: 48px;
+    border: 2px solid #b9d9b9;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2d3748;
+    background: white;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    -moz-appearance: textfield;
+  }
+
+  .input-group input[type="number"]::-webkit-outer-spin-button,
+  .input-group input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .input-group input[type="number"]:focus {
+    outline: none;
+    border-color: #68a068;
+    box-shadow: 0 0 0 3px rgba(104, 160, 104, 0.2);
+  }
+
+  .input-group input[type="number"]:disabled {
+    background: #e2e8f0;
+    color: #a0aec0;
+    cursor: not-allowed;
+  }
+
+  /* Rounds Input with Infinity Toggle */
+  .rounds-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .rounds-input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .infinity-display {
+    width: 60px;
+    height: 48px;
+    border: 2px solid #b9d9b9;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #68a068;
+    background: white;
+  }
+
+  .infinity-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.7rem;
+    color: #4a5568;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .infinity-toggle input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #68a068;
+    cursor: pointer;
+  }
+
+  /* Pattern Summary */
+  .pattern-summary {
+    font-size: 0.9rem;
+    color: #718096;
+    margin-top: 0.5rem;
+  }
+
+  .pattern-summary strong {
+    color: #4a5568;
+  }
+
+  /* Buttons */
+  .btn {
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: inherit;
+  }
+
+  .btn-start {
+    background: linear-gradient(135deg, #68a068 0%, #5a9a5a 100%);
+    color: white;
+    box-shadow: 0 4px 14px rgba(104, 160, 104, 0.4);
+  }
+
+  .btn-start:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(104, 160, 104, 0.5);
+  }
+
+  .btn-start:active {
+    transform: translateY(0);
+  }
+
+  .btn-stop {
+    background: linear-gradient(135deg, #e57373 0%, #d66a6a 100%);
+    color: white;
+    box-shadow: 0 4px 14px rgba(229, 115, 115, 0.4);
+  }
+
+  .btn-stop:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(229, 115, 115, 0.5);
+  }
+
+  .btn.hidden {
+    display: none;
+  }
+
+  /* Validation Error */
+  .validation-error {
+    background: #fed7d7;
+    color: #c53030;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    display: none;
+  }
+
+  .validation-error.show {
+    display: block;
+    animation: shake 0.4s ease;
+  }
+
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+  }
+
+  /* Breathing Circle Area */
+  .breathing-area {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 2rem auto;
+  }
+
+  .circle-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .outer-ring {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #c8e6c9;
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(104, 160, 104, 0.15);
+  }
+
+  .inner-circle {
+    width: 85%;
+    height: 85%;
+    background: linear-gradient(135deg, #a8d5a8 0%, #7fc9a8 50%, #68b8c8 100%);
+    border-radius: 50%;
+    transform: scale(0.15);
+    box-shadow: 0 10px 40px rgba(104, 160, 104, 0.3);
+    transition: none;
+  }
+
+  /* Breathing Animations */
+  @keyframes breathIn {
+    from { transform: scale(0.15); }
+    to { transform: scale(1); }
+  }
+
+  @keyframes breathOut {
+    from { transform: scale(1); }
+    to { transform: scale(0.15); }
+  }
+
+  @keyframes countdownPulse {
+    0% { opacity: 0; transform: scale(0.8); }
+    20% { opacity: 1; transform: scale(1.05); }
+    100% { opacity: 1; transform: scale(1); }
+  }
+
+  .inner-circle.inhale {
+    animation: breathIn var(--breath-duration) linear forwards;
+  }
+
+  .inner-circle.exhale {
+    animation: breathOut var(--breath-duration) linear forwards;
+  }
+
+  .inner-circle.hold-full {
+    transform: scale(1);
+  }
+
+  .inner-circle.hold-empty {
+    transform: scale(0.15);
+  }
+
+  /* Center Text Overlay */
+  .center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    pointer-events: none;
+    z-index: 10;
+  }
+
+  .phase-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 0.25rem;
+    min-height: 2rem;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+  }
+
+  .countdown-number {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #68a068;
+    animation: countdownPulse 0.8s ease-out;
+    text-shadow: 0 2px 4px rgba(255, 255, 255, 0.9);
+  }
+
+  .round-counter {
+    font-size: 0.9rem;
+    color: #718096;
+    margin-top: 0.5rem;
+  }
+
+  /* Session Info (visible during session) */
+  .session-info {
+    margin-top: 1.5rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .session-info.visible {
+    opacity: 1;
+  }
+
+  /* Completion Message */
+  .completion-message {
+    background: linear-gradient(135deg, #c8e6c9 0%, #b2ebf2 100%);
+    padding: 1.5rem 2rem;
+    border-radius: 16px;
+    margin-top: 1rem;
+    display: none;
+  }
+
+  .completion-message.show {
+    display: block;
+    animation: fadeInPage 0.5s ease-out;
+  }
+
+  .completion-message h3 {
+    color: #2d3748;
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+  }
+
+  .completion-message p {
+    color: #4a5568;
+    margin: 0;
+  }
+
+  /* Idle State */
+  .idle-message {
+    color: #718096;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+
+  /* Mobile Responsiveness */
+  @media (max-width: 480px) {
+    .breathwork-container {
+      padding: 1rem 0.5rem;
+    }
+
+    .breathwork-title {
+      font-size: 1.5rem;
+    }
+
+    .inputs-row {
+      gap: 0.75rem;
+    }
+
+    .input-group {
+      min-width: 55px;
+    }
+
+    .input-group input[type="number"] {
+      width: 50px;
+      height: 42px;
+      font-size: 1.1rem;
+    }
+
+    .infinity-display {
+      width: 50px;
+      height: 42px;
+    }
+
+    .breathing-area {
+      width: 250px;
+      height: 250px;
+    }
+
+    .phase-text {
+      font-size: 1.25rem;
+    }
+
+    .countdown-number {
+      font-size: 3rem;
+    }
+
+    .btn {
+      padding: 0.875rem 2rem;
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .inputs-row {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .input-group {
+      flex-direction: row;
+      gap: 0.75rem;
+      min-width: 100%;
+      justify-content: space-between;
+      padding: 0 1rem;
+    }
+
+    .input-group label {
+      text-align: left;
+      min-width: 80px;
+    }
+
+    .breathing-area {
+      width: 220px;
+      height: 220px;
+    }
+  }
+</style>
+
+<div class="breathwork-container">
+  <h1 class="breathwork-title">Breathwork</h1>
+  <p class="breathwork-subtitle">Find your calm with guided breathing</p>
+
+  <!-- Controls Section -->
+  <div class="controls-section" id="controls">
+    <div class="inputs-row">
+      <div class="input-group">
+        <label for="inhale">Inhale (sec)</label>
+        <input type="number" id="inhale" min="0" max="9" value="4">
+      </div>
+      <div class="input-group">
+        <label for="hold-in">Hold (sec)</label>
+        <input type="number" id="hold-in" min="0" max="9" value="7">
+      </div>
+      <div class="input-group">
+        <label for="exhale">Exhale (sec)</label>
+        <input type="number" id="exhale" min="0" max="9" value="8">
+      </div>
+      <div class="input-group">
+        <label for="hold-out">Hold (sec)</label>
+        <input type="number" id="hold-out" min="0" max="9" value="0">
+      </div>
+      <div class="input-group">
+        <label for="rounds">Rounds</label>
+        <div class="rounds-wrapper">
+          <div class="rounds-input-container">
+            <input type="number" id="rounds" min="2" max="99" value="10" class="rounds-number">
+            <div class="infinity-display" id="infinity-display" style="display: none;">∞</div>
+          </div>
+          <label class="infinity-toggle">
+            <input type="checkbox" id="infinite-toggle"> Infinite
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="validation-error" id="validation-error">
+      Please set at least one breathing phase (inhale or exhale) to a value greater than 0.
+    </div>
+
+    <div class="pattern-summary" id="pattern-summary">
+      <strong id="pattern-display">4-7-8-0</strong> pattern • <span id="rounds-display">10 rounds</span>
+    </div>
+
+    <button class="btn btn-start" id="start-btn">Start Breathwork</button>
+  </div>
+
+  <!-- Breathing Circle -->
+  <div class="breathing-area">
+    <div class="circle-container">
+      <div class="outer-ring"></div>
+      <div class="inner-circle" id="breathing-circle"></div>
+    </div>
+    <div class="center-text">
+      <div class="phase-text" id="phase-text"></div>
+      <div class="countdown-number" id="countdown-number" style="display: none;"></div>
+      <div class="round-counter" id="round-counter"></div>
+    </div>
+  </div>
+
+  <!-- Session Controls -->
+  <div class="session-info" id="session-info">
+    <button class="btn btn-stop hidden" id="stop-btn">Stop</button>
+  </div>
+
+  <!-- Completion Message -->
+  <div class="completion-message" id="completion-message">
+    <h3>Session Complete ✨</h3>
+    <p id="completion-text">Great job! You completed all rounds.</p>
+  </div>
+
+  <!-- Idle Message -->
+  <div class="idle-message" id="idle-message">
+    Adjust your breathing pattern above and press start when ready.
+  </div>
+</div>
+
+<script>
+(function() {
+  // State
+  let state = {
+    phase: 'idle', // 'idle' | 'countdown' | 'inhale' | 'hold-in' | 'exhale' | 'hold-out' | 'complete'
+    currentRound: 0,
+    totalRounds: 10,
+    isInfinite: false,
+    countdownValue: 3,
+    timers: []
+  };
+
+  // DOM Elements
+  const elements = {
+    controls: document.getElementById('controls'),
+    startBtn: document.getElementById('start-btn'),
+    stopBtn: document.getElementById('stop-btn'),
+    sessionInfo: document.getElementById('session-info'),
+    breathingCircle: document.getElementById('breathing-circle'),
+    phaseText: document.getElementById('phase-text'),
+    countdownNumber: document.getElementById('countdown-number'),
+    roundCounter: document.getElementById('round-counter'),
+    completionMessage: document.getElementById('completion-message'),
+    completionText: document.getElementById('completion-text'),
+    idleMessage: document.getElementById('idle-message'),
+    patternDisplay: document.getElementById('pattern-display'),
+    roundsDisplay: document.getElementById('rounds-display'),
+    validationError: document.getElementById('validation-error'),
+    // Inputs
+    inhaleInput: document.getElementById('inhale'),
+    holdInInput: document.getElementById('hold-in'),
+    exhaleInput: document.getElementById('exhale'),
+    holdOutInput: document.getElementById('hold-out'),
+    roundsInput: document.getElementById('rounds'),
+    infiniteToggle: document.getElementById('infinite-toggle'),
+    infinityDisplay: document.getElementById('infinity-display')
+  };
+
+  // Get current settings
+  function getSettings() {
+    return {
+      inhale: parseInt(elements.inhaleInput.value) || 0,
+      holdIn: parseInt(elements.holdInInput.value) || 0,
+      exhale: parseInt(elements.exhaleInput.value) || 0,
+      holdOut: parseInt(elements.holdOutInput.value) || 0,
+      rounds: parseInt(elements.roundsInput.value) || 10,
+      isInfinite: elements.infiniteToggle.checked
+    };
+  }
+
+  // Validate settings
+  function validateSettings(settings) {
+    return settings.inhale > 0 || settings.exhale > 0;
+  }
+
+  // Update pattern summary
+  function updatePatternSummary() {
+    const settings = getSettings();
+    elements.patternDisplay.textContent = 
+      `${settings.inhale}-${settings.holdIn}-${settings.exhale}-${settings.holdOut}`;
+    elements.roundsDisplay.textContent = 
+      settings.isInfinite ? 'Infinite' : `${settings.rounds} rounds`;
+  }
+
+  // Handle infinite toggle
+  function handleInfiniteToggle() {
+    const isInfinite = elements.infiniteToggle.checked;
+    if (isInfinite) {
+      elements.roundsInput.style.display = 'none';
+      elements.infinityDisplay.style.display = 'flex';
+    } else {
+      elements.roundsInput.style.display = 'block';
+      elements.infinityDisplay.style.display = 'none';
+    }
+    updatePatternSummary();
+  }
+
+  // Limit input to single digit (0-9) for breathing phases
+  function limitToSingleDigit(input) {
+    input.addEventListener('input', function() {
+      let value = parseInt(this.value);
+      if (isNaN(value) || value < 0) value = 0;
+      if (value > 9) value = 9;
+      this.value = value;
+      updatePatternSummary();
+    });
+  }
+
+  // Limit rounds input
+  function limitRoundsInput() {
+    elements.roundsInput.addEventListener('input', function() {
+      let value = parseInt(this.value);
+      if (isNaN(value) || value < 2) value = 2;
+      if (value > 99) value = 99;
+      this.value = value;
+      updatePatternSummary();
+    });
+  }
+
+  // Clear all timers
+  function clearAllTimers() {
+    state.timers.forEach(timer => clearTimeout(timer));
+    state.timers = [];
+  }
+
+  // Set inputs disabled state
+  function setInputsDisabled(disabled) {
+    [elements.inhaleInput, elements.holdInInput, elements.exhaleInput, 
+     elements.holdOutInput, elements.roundsInput, elements.infiniteToggle].forEach(input => {
+      input.disabled = disabled;
+    });
+  }
+
+  // Reset to idle state
+  function resetToIdle() {
+    clearAllTimers();
+    state.phase = 'idle';
+    state.currentRound = 0;
+    
+    // Reset UI
+    elements.controls.classList.remove('hidden');
+    elements.startBtn.classList.remove('hidden');
+    elements.stopBtn.classList.add('hidden');
+    elements.sessionInfo.classList.remove('visible');
+    elements.idleMessage.style.display = 'block';
+    elements.completionMessage.classList.remove('show');
+    
+    // Reset circle
+    elements.breathingCircle.className = 'inner-circle';
+    elements.breathingCircle.style.animation = '';
+    elements.breathingCircle.style.transform = 'scale(0.15)';
+    
+    // Reset text
+    elements.phaseText.textContent = '';
+    elements.countdownNumber.style.display = 'none';
+    elements.roundCounter.textContent = '';
+    
+    setInputsDisabled(false);
+  }
+
+  // Update round counter display
+  function updateRoundCounter() {
+    const settings = getSettings();
+    if (settings.isInfinite) {
+      elements.roundCounter.textContent = `Round ${state.currentRound}`;
+    } else {
+      elements.roundCounter.textContent = `Round ${state.currentRound} of ${settings.rounds}`;
+    }
+  }
+
+  // Run countdown
+  function runCountdown(callback) {
+    state.phase = 'countdown';
+    state.countdownValue = 3;
+    
+    elements.phaseText.textContent = 'Get Ready';
+    elements.countdownNumber.style.display = 'block';
+    
+    function showCount() {
+      if (state.phase !== 'countdown') return;
+      
+      elements.countdownNumber.textContent = state.countdownValue;
+      // Trigger animation restart
+      elements.countdownNumber.style.animation = 'none';
+      elements.countdownNumber.offsetHeight; // Force reflow
+      elements.countdownNumber.style.animation = 'countdownPulse 0.8s ease-out';
+      
+      if (state.countdownValue > 1) {
+        state.countdownValue--;
+        const timer = setTimeout(showCount, 1000);
+        state.timers.push(timer);
+      } else {
+        const timer = setTimeout(() => {
+          elements.countdownNumber.style.display = 'none';
+          callback();
+        }, 1000);
+        state.timers.push(timer);
+      }
+    }
+    
+    showCount();
+  }
+
+  // Run a single breath cycle
+  function runBreathCycle() {
+    const settings = getSettings();
+    
+    state.currentRound++;
+    updateRoundCounter();
+    
+    let phaseIndex = 0;
+    const phases = [];
+    
+    // Build phases array (skip phases with 0 duration)
+    if (settings.inhale > 0) {
+      phases.push({ name: 'inhale', duration: settings.inhale, text: 'Breathe In' });
+    }
+    if (settings.holdIn > 0) {
+      phases.push({ name: 'hold-in', duration: settings.holdIn, text: 'Hold' });
+    }
+    if (settings.exhale > 0) {
+      phases.push({ name: 'exhale', duration: settings.exhale, text: 'Breathe Out' });
+    }
+    if (settings.holdOut > 0) {
+      phases.push({ name: 'hold-out', duration: settings.holdOut, text: 'Hold' });
+    }
+    
+    function runPhase() {
+      if (state.phase === 'idle' || state.phase === 'complete') return;
+      
+      if (phaseIndex >= phases.length) {
+        // Cycle complete, check if more rounds
+        if (!settings.isInfinite && state.currentRound >= settings.rounds) {
+          // Session complete
+          completeSession();
+        } else {
+          // Start next round
+          runBreathCycle();
+        }
+        return;
+      }
+      
+      const phase = phases[phaseIndex];
+      state.phase = phase.name;
+      elements.phaseText.textContent = phase.text;
+      
+      // Reset circle animation
+      elements.breathingCircle.className = 'inner-circle';
+      elements.breathingCircle.style.animation = '';
+      
+      if (phase.name === 'inhale') {
+        elements.breathingCircle.style.setProperty('--breath-duration', phase.duration + 's');
+        // Force reflow
+        elements.breathingCircle.offsetHeight;
+        elements.breathingCircle.classList.add('inhale');
+      } else if (phase.name === 'exhale') {
+        elements.breathingCircle.style.setProperty('--breath-duration', phase.duration + 's');
+        elements.breathingCircle.offsetHeight;
+        elements.breathingCircle.classList.add('exhale');
+      } else if (phase.name === 'hold-in') {
+        elements.breathingCircle.classList.add('hold-full');
+      } else if (phase.name === 'hold-out') {
+        elements.breathingCircle.classList.add('hold-empty');
+      }
+      
+      phaseIndex++;
+      const timer = setTimeout(runPhase, phase.duration * 1000);
+      state.timers.push(timer);
+    }
+    
+    runPhase();
+  }
+
+  // Complete the session
+  function completeSession() {
+    state.phase = 'complete';
+    clearAllTimers();
+    
+    elements.phaseText.textContent = '';
+    elements.roundCounter.textContent = '';
+    elements.completionText.textContent = `Great job! You completed ${state.currentRound} rounds.`;
+    elements.completionMessage.classList.add('show');
+    
+    elements.stopBtn.classList.add('hidden');
+    
+    // Auto reset after a moment
+    const timer = setTimeout(() => {
+      resetToIdle();
+    }, 5000);
+    state.timers.push(timer);
+  }
+
+  // Start session
+  function startSession() {
+    const settings = getSettings();
+    
+    // Validate
+    if (!validateSettings(settings)) {
+      elements.validationError.classList.add('show');
+      setTimeout(() => {
+        elements.validationError.classList.remove('show');
+      }, 3000);
+      return;
+    }
+    
+    // Hide controls, show stop button
+    elements.controls.classList.add('hidden');
+    elements.startBtn.classList.add('hidden');
+    elements.stopBtn.classList.remove('hidden');
+    elements.sessionInfo.classList.add('visible');
+    elements.idleMessage.style.display = 'none';
+    elements.completionMessage.classList.remove('show');
+    
+    setInputsDisabled(true);
+    
+    state.currentRound = 0;
+    state.totalRounds = settings.rounds;
+    state.isInfinite = settings.isInfinite;
+    
+    // Start countdown then breathing
+    runCountdown(() => {
+      runBreathCycle();
+    });
+  }
+
+  // Event Listeners
+  elements.startBtn.addEventListener('click', startSession);
+  elements.stopBtn.addEventListener('click', resetToIdle);
+  elements.infiniteToggle.addEventListener('change', handleInfiniteToggle);
+  
+  // Input limiters
+  limitToSingleDigit(elements.inhaleInput);
+  limitToSingleDigit(elements.holdInInput);
+  limitToSingleDigit(elements.exhaleInput);
+  limitToSingleDigit(elements.holdOutInput);
+  limitRoundsInput();
+  
+  // Initialize
+  updatePatternSummary();
+  handleInfiniteToggle();
+})();
+</script>
+
