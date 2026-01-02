@@ -16,9 +16,7 @@ permalink: /about/
 
 <p>Later, I moved to Funnel to build their SEO presence from the ground up. After successfully scaling that channel, I transitioned into a Product Management role. Today, I own the website roadmap, manage stakeholder alignment, and ensure that everything we ship delivers measurable impact.</p>
 
-<h3>How I work</h3>
-
-<p>I lead by example. My goal is to build environments where cross-functional teams can thrive. Great work isn't solo work; it happens when we stay curious and solve problems together.</p>
+<p>As a leader, I focus on leading by example. My goal is to build environments where cross-functional teams can thrive. Great work isn't solo work; it happens when we stay curious and solve problems together. I've learned that people need trust to share their thoughts, and some need time as well. I always strive to include everyone, even those who aren't inclined to speak up right away.</p>
 
 <p>Outside of work I like to spend time with my daughter, go for a run, brew a good pour over, or do some vibe-coding.</p>
 
