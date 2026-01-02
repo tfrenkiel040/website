@@ -8,19 +8,21 @@ permalink: /about/
 <h2> Growth PM at Funnel</h2>
         
 
-<p>I'm Thomas, a Product Manager with deep marketing expertise.</p>
+<p>I'm Thomas, a Growth PM at Funnel.</p>
 
-<p>At Funnel, I manage our website as a product, combining product thinking with marketing knowledge to drive acquisition and growth. I work closely with engineering, design, and marketing teams to build experiences that don't just look good, but also deliver results.</p>
+<p>I'm responsible for our marketing website, managing it as a product and combining product thinking with marketing insights to drive acquisition.</p>
 
-<p>My career began at smaller digital marketing agencies, before moving on to Havas Media and Orangedotcom in Amsterdam. I led the SEO team at Orangedotcom when we were acquired by iO. During my agency years, I developed and executed SEO strategies for a wide range of clients.</p>
+<p>My career began in the Netherlands, working at smaller agencies and Havas Media before joining Orangedotcom. I was serving as Head of SEO at Orangedotcom when the agency was acquired by iO Digital.</p>
 
-<p>During my time at Funnel, I transitioned from a specific SEO role to a broader PM role.</p>
+<p>Later, I moved to Funnel to build their SEO presence from the ground up. After successfully scaling that channel, I transitioned into a Product Management role. Today, I own the website roadmap, manage stakeholder alignment, and ensure that everything we ship delivers measurable impact.</p>
 
-<p>I try to lead by example, create a space where people can do their best work, and share what I've learned along the way. Great work happens when people work together, ask questions, and keep learning.</p>
+<h3>How I work</h3>
+
+<p>I lead by example. My goal is to build environments where cross-functional teams can thrive. Great work isn't solo work; it happens when we stay curious and solve problems together.</p>
 
 <p>Outside of work I like to spend time with my daughter, go for a run, brew a good pour over, or do some vibe-coding.</p>
 
-<p>Curious to learn more about my work or interested in collaborating? Let's connect! Check out my <a href="https://www.linkedin.com/in/thomasfrenkiel/">LinkedIn</a> and send me a message there.</p>
+<p>Let's chat. Reach out via <a href="https://www.linkedin.com/in/thomasfrenkiel/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
 
 <h2 class="mt5">Continuous learning</h2>
 
