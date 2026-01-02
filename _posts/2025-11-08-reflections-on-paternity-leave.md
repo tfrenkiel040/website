@@ -5,7 +5,7 @@ date: 2025-11-08
 categories: [Personal]
 ---
 
-*This post is a bit different. I wrote this during paternity leave, and edited it a bit after going back to the office.* 
+*This post is a bit different. I wrote this during paternity leave, and edited it after going back to the office.* 
 
 I'm back at work after 3 months of paternity leave. This is the longest I've been away from work since I was seventeen. (It was long enough that I stopped checking Slack every day.)
 
