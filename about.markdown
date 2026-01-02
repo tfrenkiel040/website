@@ -12,7 +12,9 @@ permalink: /about/
 
 <p>At Funnel, I manage our website as a product, combining product thinking with marketing knowledge to drive acquisition and growth. I work closely with engineering, design, and marketing teams to build experiences that don't just look good, but also deliver results.</p>
 
-<p>My career began at smaller agencies in the Netherlands, before moving on to Havas Media and Orangedotcom in Amsterdam. I led the SEO team at Orangedotcom when we were acquired by iO. During my agency years, I developed and executed SEO strategies for a wide range of clients.</p>
+<p>My career began at smaller digital marketing agencies, before moving on to Havas Media and Orangedotcom in Amsterdam. I led the SEO team at Orangedotcom when we were acquired by iO. During my agency years, I developed and executed SEO strategies for a wide range of clients.</p>
+
+<p>During my time at Funnel, I transitioned from a specific SEO role to a broader PM role.</p>
 
 <p>I try to lead by example, create a space where people can do their best work, and share what I've learned along the way. Great work happens when people work together, ask questions, and keep learning.</p>
 
