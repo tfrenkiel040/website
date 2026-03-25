@@ -75,10 +75,12 @@ Miro sits somewhere in the middle. Their request-a-demo form is deceptively heav
   </div>
 </div>
 
-The broader observation is this: the companies that have the most deliberate qualification logic in their enterprise forms tend to be the ones where the ICP is narrow enough that it actually matters who books a call. The fields aren't there to be annoying. They're there because a wrong-fit demo is expensive for everyone involved, and the form is the cheapest possible place to catch it.
+Looking at these examples, I think the important thing is to realize these aren't just UX decisions. They reflect how each company thinks about their ICP, lead qualification, and enrichmen
 
 
+When designing lead generation forms, conversion rate and user experience can't be the only factors. You also need to make deliberate choices about where on the journey you want qualification and lead enrichment to happen. In practice, this means a web PM can't just work closely with their designer. They need to be deeply aligned with the sales and commercial organization too, making sure first-line sales teams have the information they need to route leads correctly and have good conversations.
 
-I don't have a perfect answer for how to execute this in every case. But I think about it a lot.
+
+What the right form looks like will be different for every company. What might be more universally applicable is the way of working. At Funnel, every Friday I sit down with our sales development reps and performance marketing managers to review how things are going and stay aligned. That cadence matters more than any specific form design.
 
 Curious to hear from others: how do you think about friction in growth? And is there anything worth reading on this? I'm pretty sure other people have written about it, and I'd love to find it.
