@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Growth is about friction"
+title: "How I think about friction in growth"
 date: 2026-03-24
 categories: [Marketing, Product]
 ---
@@ -17,7 +17,7 @@ You can say: we're going to sell to everyone anyway and just see what happens. I
 
 Another option is to put the friction on your first-line sales team, your SDRs. When someone excited about your product books a call, SDRs then have to tell them: "This isn't really for you. You should try another vendor." That's not the worst outcome, but it's still not great. The person might feel they've wasted their time. And if they don't even hear it in person, just get an email saying you're not a good fit, they'll wonder why they didn't see that on the website before booking anything.
 
-Which brings me to the third option. You can add friction to the forms on your website. When people sign up, you can ask them what type of company they are, for example, using a simple dropdown. Going back to the previous examples, if someone selects consumer bank, or SMB, or indicates a media budget below your threshold, you can already tell them on the website that you're not currently the best fit. Maybe you could mention that you're happy to talk but can't guarantee a good implementation. That way, nobody on your team spends time talking to a vendor that isn't right for them. And the potential customers don't experience friction later in the process.
+Which brings me to the third option. You can add friction to the forms on your website. When people sign up, you can ask them what type of company they are, for example, using a simple dropdown. Going back to the previous examples, if someone selects consumer bank, or SMB, or indicates a media budget below your threshold, you can already tell them on the website that you're not currently the best fit. Maybe you could mention that you're happy to talk but can't guarantee a good implementation. That way, nobody on your team spends time talking to people who aren’t a good fit. And the potential customers don't experience friction later in the process.
 
 But this creates tension. If you're a website product manager and your job is to increase conversion rate, one of the first things you'll think is: let's remove fields from the demo request form. That's a very natural instinct, to remove friction from the website. But what will happen is, you remove it there, but it will come back later in the flow.
 
