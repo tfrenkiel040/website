@@ -26,7 +26,10 @@ But this creates tension. If you're a website product manager and your job is to
 Why not automate this? And yes, there are tons of lead enrichment tools that can figure out what type of company just booked a demo based on the email address. And then automatically send a message saying you're not a good fit, cancel the meeting, suggest alternatives. That could be a good solution. 
 But sometimes the thing you actually need to know isn't something enrichment tools can tell you. Media spend is a good example. You can't confidently pull that from a database. You can use proxies like company size or annual revenue, but it's not the same thing. And regardless, you still don't know how much time that person has already spent researching you. If they've been deep in your website for an hour, that automated email is still going to feel bad. Its not a great user experience to try to contact a company only to get an automated email back saying they don't want to sell to you.
 
-This is actually what makes product marketing and clear positioning so important, and why it needs to be reflected on the website. If your website is a well-built product, it should naturally communicate who the product is for, and implicitly, who it isn't for.  
+This is actually what makes product marketing and clear positioning so important, and why it needs to be reflected on the website. If your website is a well-built product, it should naturally communicate who the product is for, and implicitly, who it isn't for.
+
+Not all friction just moves around. Some of it can be eliminated entirely. If your website clearly communicates what your product does and who it's for, you remove the "what is this actually?" confusion that visitors often feel. That friction doesn't pop up somewhere else downstream. It's just gone. The tricky part is that this kind of friction is invisible.
+
 This also reflects how a website is not *only* a lead generation engine. It also needs to be a reflection of your brand and product.
 
 ## How do companies actually handle this?
@@ -74,6 +77,8 @@ Miro sits somewhere in the middle. Their request-a-demo form is deceptively heav
     <p class="f6 i tc gray">Enterprise demo request</p>
   </div>
 </div>
+
+There's another dimension worth mentioning. Friction is also a signal. A long form before a demo tells the visitor: this is a serious product for serious buyers. A one-click signup tells them: try it, no commitment. Neither is right or wrong, but both communicate something about who you are and what kind of relationship you're offering. Salesforce's multi-step free trial form isn't just collecting data. It's also telling you what kind of company Salesforce is
 
 Looking at these examples, I think the important thing is to realize these aren't just UX decisions. They reflect how each company thinks about their ICP, lead qualification, and enrichmen
 
