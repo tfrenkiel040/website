@@ -84,6 +84,6 @@ Looking at these examples, I think the important thing is to realize these aren'
 When designing lead generation forms, conversion rate and user experience can't be the only factors. You also need to make deliberate choices about where on the journey you want qualification and lead enrichment to happen. In practice, this means a web PM can't just work closely with their designer. They need to be deeply aligned with the sales and commercial organization too, making sure first-line sales teams have the information they need to route leads correctly and have good conversations.
 
 
-What the right form looks like will be different for every company. What might be more universally applicable is the way of working. At Funnel, every Friday I sit down with our sales development reps and performance marketing managers to review how things are going and stay aligned. That cadence matters more than any specific form design.
+What the right form looks like will be different for every company. What might be more universally applicable is the way of working. At Funnel, every Friday I sit down with our sales development reps and performance marketing managers to review how things are going and stay aligned. This is the forum where we discuss things like forms and flows, and where we decide what to test next.
 
 Curious to hear from others: how do you think about friction in growth? And is there anything worth reading on this? I'm pretty sure other people have written about it, and I'd love to find it.
