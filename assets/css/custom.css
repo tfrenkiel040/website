@@ -104,6 +104,24 @@ text-decoration: none;
 
 }
 
+/* In-post links. app.css sets text-decoration: none on every element,
+   and these links inherit the body color, so they read as plain text. */
+.post-content a {
+    color: #1e40af;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.18em;
+}
+
+.post-content a:hover,
+.post-content a:focus-visible {
+    color: #1e3a8a;
+}
+
+.post-content a:has(> img:only-child) {
+    text-decoration: none;
+}
+
 .cf {
     font-size: 18px; /* Adjust font size as needed */
     line-height: 1.6; /* Adjust this value as needed */

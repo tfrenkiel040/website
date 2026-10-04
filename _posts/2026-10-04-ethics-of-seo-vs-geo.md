@@ -11,7 +11,7 @@ This got me thinking.
 
 Manipulation has always been a part of SEO. I can't say I've never bought links, or schemed to get a great backlink to a client website.
 
-But with SEO, it was about getting clicks to your website. Even if some form of manipulation was part of your strategy, you also worked on a good website, great UX, unique and valuable content, making the website faster, and so on.
+But with SEO, it was about getting people to visit your website. Even if some form of manipulation was part of your strategy, you also worked on a good website, great UX, unique and valuable content, making the website faster, and so on.
 
 A large part of what attracted me to SEO some 5 to 10 years ago was the idea of building something great. Always thinking: how can we make this page or website even better? What would be an even better experience for the user?
 

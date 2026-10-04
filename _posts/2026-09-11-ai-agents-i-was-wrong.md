@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "AI agents and accountability (I was wrong)"
+title: "How I was wrong about AI agents"
 date: 2026-09-11
 categories: [AI]
+published: false
 ---
 
 Fifteen months ago I wrote that [the problem with AI agents is accountability](https://thomasfrenkiel.com/ai/2025/06/14/ai-agents-accountability.html). I said agents have agency but no accountability, that I hadn't seen a compelling example of one being genuinely useful, and that it would take a while before agents really took over work.
