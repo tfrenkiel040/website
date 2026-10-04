@@ -50,7 +50,7 @@ In the old post I argued the difference between an agent and regular software is
 
 I never did try n8n, which I said I would. I didn't need to, because the thing I was waiting for turned up somewhere else. For me it came down to two things: MCP, which lets the model actually reach into the tools we already use, and much better web browsing. Claude can read our Notion and post in Slack. ChatGPT can open 20 competitor pages, take screenshots and put them in a report. As far as I know, neither was possible fifteen months ago.
 
-That's what turned an LLM into an agent for me. And notice that neither has anything to do with the objection I raised in 2025. Nobody solved accountability first, and nobody solved hallucination first. My objection just stopped mattering once the model could open a browser and get into our Notion.
+That's what turned an LLM into an agent for me. And notice that neither has anything to do with the objection I raised in 2025. Nobody solved accountability first, and nobody solved hallucination first. My objection just stopped mattering once the model got easy access to grounding data, and the ability to act on it.
 
 I've been using MCPs heavily for about six months now, so if I had to date my own shift, that's it, rather than any particular model release. Astra is what made me look again. Tool access is why it worked.
 
