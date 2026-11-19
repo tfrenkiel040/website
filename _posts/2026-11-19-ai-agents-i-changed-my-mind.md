@@ -8,12 +8,6 @@ redirect_from:
   - /ai/2026/11/19/ai-agents-i-changed-my-mind.html
 ---
 
-In June 2025, I wrote a post about [AI agents and accountability](/ai/2025/06/14/ai-agents-accountability.html). My argument was that agents might have agency, but they couldn't be held accountable. The person who deployed an agent would still be responsible for its work. And because of that, I thought it would take a while before agents became useful in companies.
-
-I still think the person is responsible. But I was wrong about how useful agents could be while that remains true.
-
-## A fix I wouldn't have made myself
-
 Recently, I asked my agent to review the FAQs on our pricing page. I expected feedback on the content, and it gave me that. But it also checked the FAQPage schema, the structured data that tells search engines what the questions and answers are.
 
 It found an error: the templates were producing broken JSON, so crawlers ignored the whole block.
@@ -24,7 +18,7 @@ Before, I would have created a card on our Notion board and asked our developer 
 
 ## When did my chatbot become an agent?
 
-In 2025, I saw a lot of startups building AI agents, and I was skeptical about the promise that everything could be fully automated. One company I followed was Relay.app. In July this year, they announced they were shutting down, and the product closed in September.
+In 2025, I saw a lot of startups building AI agents, and I was [skeptical](/ai/2025/06/14/ai-agents-accountability.html) about the promise that everything could be fully automated. One company I followed was Relay.app. In July this year, they announced they were shutting down, and the product closed in September.
 
 What I didn't expect was how useful agents would become once AI companies gave their existing chatbots more tools.
 
@@ -66,14 +60,12 @@ You don't need to recreate all of this at once. A useful starting point could be
 
 ## So what about accountability?
 
-I think my original concern still applies. The agent can't be accountable for a change to our website. I can, and so can the people who review and merge the work.
-
-But I had imagined that this would prevent agents from being useful. I now think I was looking at the wrong model of how people would work with them.
+An agent can't be accountable for a change to our website. I can, and so can the people who review and merge the work.
 
 In my experience, agents aren't doing most of their work fully autonomously. It's more like each person has one or a few agents helping them, a bit like having a small team of very smart and capable juniors. They can research, draft, analyze, and make changes. The employee still reviews the work and decides whether to share it, use the copy, or merge the code.
 
 Sometimes my agent is a bit too eager: I ask a question, and it starts doing things when I only wanted an answer.
 
-I'm very happy with the setup. My agent knows the context of my work, helps me do things I couldn't do on my own, and leaves me in charge of the result. That is a much more useful agent than the one I imagined in 2025.
+I'm very happy with the setup. My agent knows the context of my work, helps me do things I couldn't do on my own, and leaves me in charge of the result.
 
 How are you using agents in your work? And what can you do now that you couldn't do before? I'd love to hear about it. Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/thomasfrenkiel/).
