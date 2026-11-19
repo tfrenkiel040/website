@@ -5,6 +5,8 @@ date: 2025-06-14
 categories: [AI]
 ---
 
+*Update, November 2026: Some of this held up, some didn't. I still think the person who deploys an agent is accountable for its work, but I thought it would take a while before agents did real work. It didn't take that long. I wrote about [how I use AI agents now](/ai/2026/11/19/how-i-use-ai-agents-as-a-web-pm.html).*
+
 Here's the problem with AI agents: accountability.
 
 AI agent companies are popping up like mushrooms. It seems to be the next step in AI development. 
