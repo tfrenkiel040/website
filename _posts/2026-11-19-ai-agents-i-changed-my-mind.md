@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI agents: I changed my mind"
+title: "My agentic setup as a Web PM"
 date: 2026-11-19
 categories: [AI]
 ---
@@ -11,9 +11,9 @@ I still think the person is responsible. But I was wrong about how useful agents
 
 ## When did my chatbot become an agent?
 
-Back then, I saw a lot of startups building AI agents. One company I followed was Relay.app. In July this year, they announced they were shutting down, and the [product closed in September](https://relay.app/).
+Back then, I saw a lot of startups building AI agents, and I was skeptical about how useful their products would be. One company I followed was Relay.app. In July this year, they announced they were shutting down, and the [product closed in September](https://relay.app/).
 
-That's one example, not evidence that all agent companies are struggling. But it does say something about what I expected an agent to look like: a separate product that I would set up to do a specific job.
+In that case, my skepticism wasn't entirely misplaced. But Relay closing doesn't prove that my reasoning was right, or that other agent companies won't succeed. What I didn't expect was how useful agents would become as the leading AI companies gave their existing chatbots more tools and capabilities.
 
 What happened for me was more gradual. The AI chatbot I was already using got more tools. It could create documents in Google Docs, get better at building software and web apps, and analyze our website data through the Funnel MCP, which gives it access to our Google Analytics data.
 
@@ -41,9 +41,9 @@ The `CLAUDE.md` file is an operating manual. It tells the agent what role I want
 
 The `context` folder gives it background for my work. It contains source documents and notes, as well as a wiki that brings information together across those files. The weekly folder is more immediate: what I'm working on, decisions, and open actions.
 
-Then there are the skills. A skill is a set of instructions for a task I do repeatedly. My most-used one is `/today`. I run it every day to get a briefing that brings together my calendar, weekly notes, and relevant open work. I also have skills for reflecting at the end of the day and closing out a week.
+Then there are the skills. A skill is a set of instructions for a task I do repeatedly. My most-used one is `/today`. I run it every day to get a briefing that brings together my calendar, weekly notes, and relevant open work. I also have a skill for writing internal updates for our website-updates Slack channel, and another for making code changes to the website. I'm not a developer, but with the agent's help I sometimes make pull requests myself.
 
-Finally, there are the connections to other tools. These include Google Calendar, Notion, Slack, and the Funnel MCP. MCP stands for Model Context Protocol. In practice, it gives the agent a way to use an external tool or access information from it. For example, I can ask a question about our website data and have the agent use Funnel to analyze it.
+Finally, there are the connections to other tools. These include Google Calendar, Notion, Slack, and the Funnel MCP. In practice, it gives the agent a way to use an external tool or access information from it. For example, I can ask a question about our website data and have the agent use Funnel to analyze it.
 
 You don't need to recreate all of this at once. A useful starting point could be a folder with a short document about your role and working preferences, a weekly note, and instructions for one task you repeat. Then add to it when you notice yourself explaining the same context or process again.
 
