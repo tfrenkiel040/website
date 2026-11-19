@@ -20,19 +20,19 @@ It found an error: the templates were producing broken JSON, so crawlers ignored
 
 The agent asked if it should fix it. It found the relevant code in our website repository, wrote a fix, and tested it. I opened a pull request, our web developer reviewed it, and we merged it. We also found the same bug on 56 of 86 `/connect/` pages and fixed those too. Both fixes are now live. All of this took less than an hour.
 
-Before, I would have created a card on our Notion board and asked our developer to look into it. This time I could do it myself, with the agent's help and a review from our developer. I'm not a developer, and we got a fix shipped across the site.
+Before, I would have created a card on our Notion board and asked our developer to look into it. This time I could do it myself, with the agent's help and a review from our developer. I'm not a developer, and I still got a fix shipped across the site.
 
 ## When did my chatbot become an agent?
 
-Back then, I saw a lot of startups building AI agents, and I was skeptical about the promise that everything could be fully automated. One company I followed was Relay.app. In July this year, they announced they were shutting down, and the product closed in September.
+In 2025, I saw a lot of startups building AI agents, and I was skeptical about the promise that everything could be fully automated. One company I followed was Relay.app. In July this year, they announced they were shutting down, and the product closed in September.
 
-What I didn't expect was how useful agents would become as the leading AI companies gave their existing chatbots more tools and capabilities.
+What I didn't expect was how useful agents would become once AI companies gave their existing chatbots more tools.
 
-What happened for me was more gradual. The AI chatbot I was already using got more tools. It could create documents in Google Docs, get better at building software and web apps, and analyze our website data through the Funnel MCP, which gives it access to our Google Analytics data.
+For me, it happened gradually. The chatbot I was already using could suddenly create Google Docs, build software and web apps, and analyze our website data through the Funnel MCP, which gives it access to our Google Analytics data.
 
 At some point, I noticed that I was telling colleagues on the web team things like "my agent wrote this" or "my agent says it's an easy fix." People on my team started talking about their agents too.
 
-I can't point to the day I stopped using a chatbot and started using an agent. But somewhere along the way, the thing I was chatting with became something I could also ask to look things up, work with files, and do things.
+I can't point to the day I stopped using a chatbot and started using an agent. But somewhere along the way, the thing I was chatting with became something I could also ask to look things up, work with files, and make changes.
 
 ## What my setup looks like
 
@@ -54,9 +54,9 @@ The `CLAUDE.md` file is an operating manual. It tells the agent what role I want
 
 The `context` folder contains source documents and notes, as well as a wiki that brings information together across those files. The weekly folder holds my plans, decisions, and open actions. Together, they give the agent context about my priorities, my team, and our positioning. When I ask it to help with something, I don't have to explain all of that again.
 
-And the context doesn't just sit there. When I give the agent a new company strategy or priorities document, or a transcript from a meeting, it knows to update the relevant wiki files without me having to ask. The source documents stay in the folder, and the wiki brings together what the agent has learned from them. The next time I ask a question, that new information is already part of the context it can use.
+The context also keeps itself up to date. When I give the agent a new company strategy or priorities document, or a transcript from a meeting, it knows to update the relevant wiki files without me having to ask. The source documents stay in the folder, and the wiki brings together what the agent has learned from them. The next time I ask a question, that new information is already part of the context it can use.
 
-Then there are the skills. A skill is a set of instructions for a task I do repeatedly. My most-used one is `/today`. I run it every day to get a briefing that brings together my calendar, weekly notes, and relevant open work. I also have a skill for writing internal updates for our website-updates Slack channel, and another for making code changes to the website. I'm not a developer, but with the agent's help I sometimes make pull requests myself.
+Then there are the skills. A skill is a set of instructions for a task I do repeatedly. My most-used one is `/today`. I run it every day to get a briefing that brings together my calendar, weekly notes, and relevant open work. I also have a skill for writing internal updates for our website-updates Slack channel, and another for making code changes to the website, which is how I sometimes make pull requests myself.
 
 I also have scheduled tasks in Claude. Every week, one task checks Slack for product updates that have shipped. It uses a skill to tell me which updates are relevant to my work and whether there are pages on the website I should update.
 
