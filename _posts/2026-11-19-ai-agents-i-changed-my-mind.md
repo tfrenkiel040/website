@@ -1,8 +1,11 @@
 ---
 layout: post
-title: "My agentic setup as a Web PM"
+title: "How I use AI agents as a Web PM"
 date: 2026-11-19
 categories: [AI]
+permalink: /ai/2026/11/19/how-i-use-ai-agents-as-a-web-pm.html
+redirect_from:
+  - /ai/2026/11/19/ai-agents-i-changed-my-mind.html
 ---
 
 In June 2025, I wrote a post about [AI agents and accountability](/ai/2025/06/14/ai-agents-accountability.html). My argument was that agents might have agency, but they couldn't be held accountable. The person who deployed an agent would still be responsible for its work. And because of that, I thought it would take a while before agents became useful in companies.
@@ -21,13 +24,13 @@ Before, I would have created a card on our Notion board and asked our developer 
 
 ## When did my chatbot become an agent?
 
-Back then, I saw a lot of startups building AI agents, and I was skeptical about how useful their products would be. One company I followed was Relay.app. In July this year, they announced they were shutting down, and the [product closed in September](https://relay.app/).
+Back then, I saw a lot of startups building AI agents, and I was skeptical about the promise that everything could be fully automated. One company I followed was Relay.app. In July this year, they announced they were shutting down, and the product closed in September.
 
-I was skeptical about that company, and it didn't succeed. What I didn't expect was how useful agents would become as the leading AI companies gave their existing chatbots more tools and capabilities.
+What I didn't expect was how useful agents would become as the leading AI companies gave their existing chatbots more tools and capabilities.
 
 What happened for me was more gradual. The AI chatbot I was already using got more tools. It could create documents in Google Docs, get better at building software and web apps, and analyze our website data through the Funnel MCP, which gives it access to our Google Analytics data.
 
-At some point, I noticed that I was telling colleagues on the web team things like "my agent wrote this" or "my agent says it's an easy fix." The developers on my team started talking about their agents too.
+At some point, I noticed that I was telling colleagues on the web team things like "my agent wrote this" or "my agent says it's an easy fix." People on my team started talking about their agents too.
 
 I can't point to the day I stopped using a chatbot and started using an agent. But somewhere along the way, the thing I was chatting with became something I could also ask to look things up, work with files, and do things.
 
@@ -54,6 +57,8 @@ The `context` folder contains source documents and notes, as well as a wiki that
 And the context doesn't just sit there. When I give the agent a new company strategy or priorities document, or a transcript from a meeting, it knows to update the relevant wiki files without me having to ask. The source documents stay in the folder, and the wiki brings together what the agent has learned from them. The next time I ask a question, that new information is already part of the context it can use.
 
 Then there are the skills. A skill is a set of instructions for a task I do repeatedly. My most-used one is `/today`. I run it every day to get a briefing that brings together my calendar, weekly notes, and relevant open work. I also have a skill for writing internal updates for our website-updates Slack channel, and another for making code changes to the website. I'm not a developer, but with the agent's help I sometimes make pull requests myself.
+
+I also have scheduled tasks in Claude. Every week, one task checks Slack for product updates that have shipped. It uses a skill to tell me which updates are relevant to my work and whether there are pages on the website I should update.
 
 Finally, there are the connections to other tools. These include Google Calendar, Notion, Slack, and the Funnel MCP. For example, I can ask a question about our website data and have the agent use Funnel to analyze it.
 
