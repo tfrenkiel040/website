@@ -32,16 +32,18 @@ I can't point to the day I stopped using a chatbot and started using an agent. B
 
 My starting point was something called funnel-copilot, built by my colleague Kim Frithiof. He presented it at a lunch-and-learn and shared starter files that others could use. I took those files, made changes, and gradually turned the setup into something that works for me.
 
+I work in Claude Code throughout the day. It's the interface I use to talk to my agent, work with files, and use the tools connected to my setup.
+
 The idea is based on Andrej Karpathy's [LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f): keep source material in files, and let an AI maintain a wiki that connects and summarizes what is in those sources.
 
 My setup is a folder on my computer. The main parts look roughly like this:
 
 ```text
 funnel-copilot/
-├── CLAUDE.md       # How I want the agent to work
-├── context/        # Documents, notes, and a wiki
-├── weekly/         # Weekly plans and notes
-└── skills/         # Instructions for recurring workflows
+├── CLAUDE.md
+├── context/
+├── weekly/
+└── skills/
 ```
 
 The `CLAUDE.md` file is an operating manual. It tells the agent what role I want it to play, how I like to work, where to find relevant information, and when to check with me before making changes.

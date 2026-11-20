@@ -104,6 +104,22 @@ text-decoration: none;
 
 }
 
+@media (max-width: 600px) {
+    main.w-90 {
+        width: calc(100% - 40px);
+    }
+
+    .post.h-entry {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.post-content pre {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
 /* In-post links. app.css sets text-decoration: none on every element,
    and these links inherit the body color, so they read as plain text. */
 .post-content a {
